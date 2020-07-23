@@ -18,11 +18,28 @@
 			<div class="header-profile-menu-login-container">
 				<ul class="header-profile-menu-login">
 					<li>
+						<a href="#">
+							Films
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							FAQ
+						</a>
+					</li>
+					<li>
+						<a href="/search">
+							Store
+						</a>
+					</li>
+					<li>
 						<a class="header-profile-login-link" data-touchpoint="login" data-hashtag="login-register" href="#">
-							<i class="header-profile-login-icon"></i>
+							<!--<i class="header-profile-login-icon"></i>-->
 							{{translate 'Login'}}
 						</a>
 					</li>
+					
+					<!--
 					{{#if showRegister}}
 						<li> | </li>
 						<li>
@@ -31,6 +48,7 @@
 							</a>
 						</li>
 					{{/if}}
+					-->
 				</ul>
 			</div>
 		{{/if}}

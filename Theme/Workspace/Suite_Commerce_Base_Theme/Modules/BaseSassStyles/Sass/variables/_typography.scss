@@ -39,3 +39,111 @@ $sc-font-weight-semibold: 600;
 $sc-font-weight-bold: 700;
 
 $sc-navigation-icon-size: 25px;
+
+@font-face {
+  font-family: "Avenir LT Std 95 Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 95 Black"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Black.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 45 Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 45 Book"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Book.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 85 Heavy"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Heavy.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 35 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 35 Light"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Light.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 65 Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 65 Medium"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Medium.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 55 Roman"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Roman.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 95 Black Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 95 Black Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-BlackOblique.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 45 Book Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 45 Book Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-BookOblique.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 85 Heavy Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 85 Heavy Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-HeavyOblique.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 35 Light Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 35 Light Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-LightOblique.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 65 Medium Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 65 Medium Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-MediumOblique.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Std 55 Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Std 55 Oblique"),
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Oblique.woff")
+      format("woff");
+}
