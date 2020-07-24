@@ -6,7 +6,7 @@
   color: $sc-color-secondary;
   //padding: 0 $sc-padding-lv2;
   height: auto;
-  line-height: 33px;
+  //line-height: 33px;
   &:hover {
     color: $sc-color-link-hover;
   }
@@ -14,6 +14,8 @@
 
 .header-profile-login-link {
   padding-left: 0;
+  position: relative;
+  left: -4px;
 }
 
 .header-profile-welcome-link {
@@ -71,6 +73,8 @@
       font-weight: 700;
       font-size: 20px;
       font-family: "Avenir LT Std 55 Roman" !important;
+      padding-bottom: 2px;
+      letter-spacing: 0.4px;
       &:hover,
       &:focus {
         //color: $sc-header-link-hover-text-color;
@@ -79,10 +83,21 @@
       }
     }
   }
+  @media (max-width: 993px) {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+    li {
+      margin: 0 6px;
+    }
+  }
 }
 
 .header-profile-menu-login-container {
   margin-right: $sc-margin-lv1;
+  @media (max-width: 993px) {
+    margin-right: 0px;
+  }
 }
 
 .header-profile-menu-login li {

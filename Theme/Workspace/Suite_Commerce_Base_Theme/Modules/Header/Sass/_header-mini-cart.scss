@@ -7,6 +7,7 @@
   z-index: 1002;
   right: 0;
   box-shadow: 0 6px 12px transparentize($sc-neutral-shade-500, 1-0.175);
+  //border: 1px solid $sc-color-theme-border-light;
   border: 1px solid $sc-color-theme-border-light;
 
   &:before {
@@ -126,7 +127,7 @@ a.header-mini-cart-buttons {
   -webkit-transition: background-color 0.15s ease-in-out,
     color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
-  padding: 0 7px 0 10px;
+  padding: 0px 7px 2px 10px;
   border-radius: 5px;
   &:hover {
     background-color: #fc1d27;
