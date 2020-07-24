@@ -1,6 +1,8 @@
 footer {
     background: $sc-footer-background-color;
     border-top: 1px solid $sc-footer-border-color;
+    background:transparent;
+    border-top:none;
     color: $sc-footer-text-color;
 
     p {
@@ -52,19 +54,20 @@ footer {
 }
 
 .footer-content{
-    @extend .container;
-    @extend .row;
     margin: auto;
     text-align: center;
     padding: $sc-padding-lv6 0 0;
+    padding-bottom:0;
     
     @media (min-width: $screen-sm-min) {
         padding-top: $sc-padding-lv5;
         padding-bottom: $sc-padding-lv5;
+        padding-bottom:0;
     }
 
     @media (min-width: $screen-md-min) {
         text-align: left;
+        padding-bottom:0;
     }
 }
 
@@ -74,4 +77,281 @@ footer {
 
 .footer-content-col2 {
     @extend .col-md-2;
+}
+
+.footer_top .watch-share-explore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.footer_top .watch-share-explore .watch-share-explore-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 320px;
+    flex: 1 0 320px;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer_top .watch-share-explore-item-icons {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 54px;
+    margin-bottom: 23px;
+}
+
+
+.footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(1) {
+    -webkit-transform: translate(-8px,-8px) rotate(-5deg);
+    transform: translate(-8px,-8px) rotate(-5deg);
+}
+.footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(2) {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+}
+.footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(3) {
+    -webkit-transform: translate(8px,-8px) rotate(5deg);
+    transform: translate(8px,-8px) rotate(5deg);
+}
+
+.footer_top .watch-share-explore-item-icons svg {
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    width:100px;
+}
+
+
+.watch-share-explore-item-heading {
+    text-rendering: optimizeLegibility;
+    margin:0 0 .25em;
+    font-size: 8vw;
+    line-height: 1.25em;
+    -webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    font-family: 'Avenir LT Std'!important;
+    font-weight: 300!important;
+}
+
+
+#banner-footer1 {
+    float:none;
+}
+#footer-iloveps {
+    vertical-align: top;
+    display:inline-block;
+    width:49%;
+}
+
+#footer-icon-iloveps {
+    display: inline-block;
+    width: 388px;
+    height: 60px;
+    text-indent: -9999px;
+    background-image: url('https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/footer-iloveps-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer-section {
+    padding:20px 0;
+}
+.footer-section.footer-info {
+    padding-top:40px;
+    display:inline-block;
+}
+
+.social-item svg {
+    width:56px;
+    height:56px;
+}
+.social-item a {
+    margin-right:0;
+}
+.social-item {
+    margin-left: 13px;
+}
+
+#footer-bottom {
+    background:#1a1a1a;
+    padding-top:40px;
+    width:100%;
+}
+
+#footer-bottom .container {
+    @extend .container;
+    @extend .row;
+    display: block;
+    margin:0 auto;
+}
+
+#footer-bottom #banner-footer1,
+#footer-bottom #banner-footer2,
+#footer-bottom #banner-footer3,
+#footer-bottom #banner-footer4,
+#footer-bottom #banner-footer5 {
+    width:100%;
+    display:inline-block;
+    vertical-align: top;
+    padding:0;
+}
+#footer-bottom #banner-footer1 p {
+    color:#979494;
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.25em;
+}
+
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width:49%;
+    display:inline-block;
+    vertical-align: top;
+    margin-top:16px;
+}
+
+#footer-email,
+#footer-tel,
+#footer-powered-by {
+    font-size: 1.25rem !important;
+    color: #fdcf41 !important;
+}
+
+#footer-powered-by {
+    color: #fd4f57 !important;
+    display:block;
+    width:100%;
+}
+
+.watch-share-explore-item-link {
+    transition:all 0.25s ease-in-out !important;
+}
+
+.footer-nav-item-link {
+    color:#fff;
+    list-style-type: none !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.cms-content ul {
+    width:100%;
+}
+
+.cms-content ul li {
+    list-style-type: none;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.footer-info-details {
+    margin: 0 0 0 15px;
+    font-size: .75rem;
+    line-height: 1.25em;
+    color:#fff;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+#footer-mission-text {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 31px;
+    color:#979494;
+    display:inline-block;
+    vertical-align: top;
+    width:49%;
+}
+
+.cms-content ul.social {
+    display:inline-block;
+}
+.footer-social {
+    display:inline-block;
+    text-align: right;
+    width:50%;
+}
+
+.footer-info-logo {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url('https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/logo-nelovesps.svg');
+    background-repeat: no-repeat;
+    margin-right:0;
+}
+
+.footer-contact-list {
+    padding:0;
+    margin:0;
+    margin-left:0 !important;
+    text-align: right;
+}
+a.footer-contact-item-link {
+    color:#fdcf41 !important;
+    margin-right:0;
+} 
+.footer-section.footer-contact{
+    display:inline-block;
+    float:right;
+    padding-bottom:0;
+}
+
+.footer-contact-item-link.bergman {
+    display:block;
+    width:100%;
+    float:right;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer-nav-list {
+        display: inline-block;
+        text-align: right;
+        margin-right:0;
+        padding-right:0;
+    }
+    .footer-nav-item {
+        list-style-type: none;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .footer-contact-item-link.bergman {
+        text-align: right;
+        width: 100%;
+        margin-top: -20px;
+        padding-bottom: 20px;
+        color:#fd4f57!important;
+        font-size:17px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .footer-nav-list {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+}
+
+@media screen and (min-width: 401px){
+    .watch-share-explore-item-heading {
+        font-size: 2rem;
+    }
 }
