@@ -53,6 +53,7 @@ footer {
     }
 }
 
+
 .footer-content{
     margin: auto;
     text-align: center;
@@ -94,6 +95,7 @@ footer {
     flex: 1 0 320px;
     padding: 15px;
     text-align: center;
+    margin-bottom: 7px;
 }
 
 .footer_top .watch-share-explore-item-icons {
@@ -124,6 +126,10 @@ footer {
     transform: translate(8px,-8px) rotate(5deg);
 }
 
+.footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-heading {
+    color:#fd4f57;
+}
+
 .footer_top .watch-share-explore-item-icons svg {
     -webkit-transition: -webkit-transform .2s ease-in-out;
     transition: -webkit-transform .2s ease-in-out;
@@ -133,17 +139,24 @@ footer {
 }
 
 
-.watch-share-explore-item-heading {
+.footer_top .watch-share-explore-item-heading {
     text-rendering: optimizeLegibility;
-    margin:0 0 .25em;
-    font-size: 8vw;
+    margin:0 0 13px;
+    font-size: 32px;
     line-height: 1.25em;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
-    font-family: 'Avenir LT Std'!important;
-    font-weight: 300!important;
+    font-family: "Avenir LT Std 35 Light";
+    font-weight: 300 !important;
+    color:#000;
 }
 
+.footer_top .watch-share-explore-item-text {
+    font-family: "Avenir LT Std 35 Light";
+    font-size:21px;
+    line-height:1.3;
+    margin-right:0;
+}
 
 #banner-footer1 {
     float:none;
@@ -168,7 +181,7 @@ footer {
     padding:20px 0;
 }
 .footer-section.footer-info {
-    padding-top:40px;
+    padding-top:37px;
     display:inline-block;
 }
 
@@ -180,7 +193,7 @@ footer {
     margin-right:0;
 }
 .social-item {
-    margin-left: 13px;
+    margin-left: 17px;
 }
 
 #footer-bottom {
@@ -194,17 +207,19 @@ footer {
     @extend .row;
     display: block;
     margin:0 auto;
+    padding-left:12px;
 }
 
 #footer-bottom #banner-footer1,
 #footer-bottom #banner-footer2,
-#footer-bottom #banner-footer3,
-#footer-bottom #banner-footer4,
-#footer-bottom #banner-footer5 {
+#footer-bottom #banner-footer3 {
     width:100%;
     display:inline-block;
     vertical-align: top;
     padding:0;
+}
+#footer-bottom #banner-footer4, #footer-bottom #banner-footer5 {
+    display:none;
 }
 #footer-bottom #banner-footer1 p {
     color:#979494;
@@ -244,10 +259,12 @@ footer {
 }
 
 .footer-nav-item-link {
-    color:#fff;
+    font-family: 'Avenir LT Std 95 Black';
     list-style-type: none !important;
     font-size: 18px !important;
     font-weight: 700 !important;
+    color:#fff;
+    margin:0 5px;
 }
 .cms-content ul {
     width:100%;
@@ -260,22 +277,28 @@ footer {
 }
 
 .footer-info-details {
-    margin: 0 0 0 15px;
-    font-size: .75rem;
+    margin: 0 0 0 10px;
+    font-size: 12px;
     line-height: 1.25em;
     color:#fff;
     display:inline-block;
     vertical-align: middle;
+    font-family: "Avenir LT Std 35 Light";
+}
+.footer-info-details a {
+    color:#fff;
+    font-size:14px;
 }
 
 #footer-mission-text {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 23px;
     line-height: 31px;
     color:#979494;
     display:inline-block;
     vertical-align: top;
-    width:49%;
+    width:50%;
+    font-family: "Avenir LT Std 35 Light";
 }
 
 .cms-content ul.social {
@@ -284,11 +307,13 @@ footer {
 .footer-social {
     display:inline-block;
     text-align: right;
-    width:50%;
+    width:48.6%;
+    margin-top:8px;
 }
 
 .footer-info-logo {
     display: inline-block;
+    vertical-align: middle;
     width: 130px;
     height: 30px;
     text-indent: -9999px;
@@ -302,21 +327,30 @@ footer {
     margin:0;
     margin-left:0 !important;
     text-align: right;
+    font-family: "Avenir LT Std 35 Light";
+}
+.footer-contact-item {
+    margin-right:4px;
 }
 a.footer-contact-item-link {
     color:#fdcf41 !important;
-    margin-right:0;
+    margin-left:6px;
+    margin-right:0px;
+    font-size:20px;
 } 
 .footer-section.footer-contact{
     display:inline-block;
     float:right;
     padding-bottom:0;
+    padding-top:36px;
 }
 
-.footer-contact-item-link.bergman {
+a.footer-contact-item-link.bergman {
     display:block;
     width:100%;
     float:right;
+    font-family: "Avenir LT Std 35 Light";
+    padding-right:4px;
 }
 
 
@@ -333,13 +367,13 @@ a.footer-contact-item-link {
 }
 
 @media screen and (min-width: 880px) {
-    .footer-contact-item-link.bergman {
+    a.footer-contact-item-link.bergman {
         text-align: right;
         width: 100%;
         margin-top: -20px;
         padding-bottom: 20px;
         color:#fd4f57!important;
-        font-size:17px;
+        font-size:20px;
     }
 }
 
@@ -353,5 +387,77 @@ a.footer-contact-item-link {
 @media screen and (min-width: 401px){
     .watch-share-explore-item-heading {
         font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #footer-iloveps,
+    .footer-nav-list,
+    .footer-nav,
+    #footer-mission-text,
+    .footer-social,
+    .footer-section.footer-info,
+    .footer-section.footer-contact,
+    .footer-contact-list  {
+        display:block;
+        width:100%;
+        text-align: center;
+        padding:0;
+        margin:0;
+    }
+    .footer-info-details {
+        text-align: left;
+    }
+    .footer-contact-list {
+        padding-bottom:0px;
+        margin-top:10px;
+    }
+    .footer-section.footer-info {
+        position:absolute;
+        bottom:20px;
+    }
+    .cms-content ul {
+        margin-left:0;
+    }
+    .footer-nav-list,
+    #footer-mission-text,
+    .cms-content ul.social,
+    #footer-iloveps {
+        padding:20px 0;
+    }
+    .cms-content ul.social li:first-child {
+        margin-left:0;
+    }
+    .cms-content ul.social {
+        padding:24px 0;
+    }
+    #footer-mission-text {
+        width:600px;
+        text-align:left;
+        margin:0 auto;
+    }
+    a.footer-contact-item-link {
+        margin-top:8px;
+    }
+    a.footer-contact-item-link.bergman {
+        padding-bottom:90px;
+        text-align: center;
+    }
+    #footer-icon-iloveps {
+        margin-right:0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    a.footer-contact-item-link.bergman {
+        width: 100%;
+        color: #fd4f57 !important;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #footer-mission-text {
+        text-align:center;
     }
 }
