@@ -1,51 +1,76 @@
 .site-search {
-	@extend .nav-search;
-	display: none;
-	width: 100%;
-	background: $sc-neutral-shade-0;
-	&.active{
-		display:block;
-	}
+  @extend .nav-search;
+  //display: none;
+  display: flex;
+  width: 100%;
+  background: $sc-neutral-shade-0;
+  border-bottom: none;
+  &.active {
+    //	display:block;
+  }
 }
 
 .site-search-content {
-	@extend .nav-search-content;
+  @extend .nav-search-content;
+  width: 205px;
+  border: 1px solid black;
+  height: 45px;
+  border-radius: 5px;
 }
-
-
 
 .site-search-content-input {
-	@extend .nav-search-content-input;
-	.itemssearcher-input {
-		border: none;
-}
-	.itemssearcher-input:focus{
-		outline:none;
-		outline-style:none;
-		box-shadow:none;
-		border-color:transparent;
-	}
+  @extend .nav-search-content-input;
+  .itemssearcher-input {
+    border: none;
+  }
+  .itemssearcher-input:focus {
+    outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+  }
 }
 
 .site-search-input-icon {
-	@extend .nav-search-input-icon;
-	font-size: $sc-font-size-xxl;
+  @extend .nav-search-input-icon;
+  position: absolute;
+  top: -0.5px;
+  font-size: 23px;
+  left: -5px;
+  color: white !important;
+  z-index: 99;
+  background-color: #1a1a1a;
+  padding: 9px 12px 12.5px 12px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .site-search-input-reset {
-	@extend .nav-search-input-reset;
-	right: 0;
+  @extend .nav-search-input-reset;
+  position: absolute;
+  top: 11px;
+  right: 23%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  background: white;
 }
 
 .site-search-button-submit {
-	@extend .nav-search-button-submit;
-	border-radius: $sc-border-radius;
+  //@extend .nav-search-button-submit;
+  //border-radius: $sc-border-radius;
+  position: absolute;
+  top: 0;
+  right: 40px;
+  outline: none;
 }
 
 .site-search-button-close {
-	@extend .nav-search-button-close;
+  @extend .nav-search-button-close;
 }
 
 .site-search-input-reset-icon {
-	@extend .nav-search-input-reset-icon;
+  @extend .nav-search-input-reset-icon;
 }

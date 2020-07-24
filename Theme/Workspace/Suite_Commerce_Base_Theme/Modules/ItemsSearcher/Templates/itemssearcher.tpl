@@ -1,5 +1,5 @@
 <input data-type="search-input" class="itemssearcher-input typeahead"
-	placeholder="{{placeholderLabel}}"
+	placeholder="{{translate 'Search'}}"
 	type="search" autocomplete="off"
 	{{#if showId}} id="{{id}}" {{/if}} {{#if showName}} name="{{name}}" {{/if}}
 	maxlength="{{maxLength}}"/>

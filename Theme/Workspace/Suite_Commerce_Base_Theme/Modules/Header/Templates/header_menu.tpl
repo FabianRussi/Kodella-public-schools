@@ -1,7 +1,7 @@
 {{#unless isStandalone}}
 <nav class="header-menu-secondary-nav">
 
-	<div class="header-menu-search" data-view="SiteSearch.Button"></div>
+	<!--<div class="header-menu-search" data-view="SiteSearch.Button"></div>-->
 
 	<ul class="header-menu-level1">
 

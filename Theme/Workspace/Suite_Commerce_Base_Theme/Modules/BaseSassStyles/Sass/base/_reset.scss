@@ -2,11 +2,11 @@ $sc-color-body-background: white; /* editable({"type": "color", "label": "Body b
 
 html,
 body {
-	font-family: $sc-font-family;
-	background-color: $sc-color-body-background;
-	font-size: $sc-font-size-base;
-	min-height:100%;
-	height: auto;
+  font-family: $sc-font-family;
+  background-color: $sc-color-body-background;
+  font-size: $sc-font-size-base;
+  min-height: 100%;
+  height: auto;
 }
 
 body,
@@ -17,62 +17,84 @@ aside,
 section,
 figure,
 nav,
-h1, h2, h3, h4, h5, h6,
-p, pre, ul, ol, dl, address, a, input, textarea, button, fieldset {
-	margin: 0;
-	padding: 0;
-	border: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+ul,
+ol,
+dl,
+address,
+a,
+input,
+textarea,
+button,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-address{
-	font-style:normal;
+address {
+  font-style: normal;
 }
 
-ul, li {
-	list-style: none;
+ul,
+li {
+  list-style: none;
 }
 
 img {
-	border: 0;
-	max-width: 100%;
-	height: auto;
+  border: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
-	color: $sc-color-link;
-	text-decoration: none;
-	cursor:pointer;
-	cursor:hand;
+  //color: $sc-color-link;
+  color: #1a1a1a;
+  text-decoration: none;
+  cursor: pointer;
+  cursor: hand;
 }
 
-a:hover, a:focus {
-	color: $sc-color-link-hover;
-	text-decoration: none;
+a:hover,
+a:focus {
+  //color: $sc-color-link-hover;
+  color: #444343;
+  text-decoration: none;
 }
 
 a:active {
-	color: $sc-color-link-active;
+  color: $sc-color-link-active;
 }
 
-[data-toggle="dropdown"]:hover, [data-toggle="dropdown"]:focus{
-	color: $sc-color-copy;
+[data-toggle="dropdown"]:hover,
+[data-toggle="dropdown"]:focus {
+  color: $sc-color-copy;
 }
 
-.open > [data-toggle="dropdown"]{
-	color: $sc-color-copy-dark;
+.open > [data-toggle="dropdown"] {
+  color: $sc-color-copy-dark;
 }
 
-hr{
-	height: 1px;
-	border: 0;
-	background-color: $sc-color-theme-border-light;
+hr {
+  height: 1px;
+  border: 0;
+  background-color: $sc-color-theme-border-light;
 }
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+/*
 
 ::-webkit-scrollbar{
 	width:10px;
@@ -91,3 +113,5 @@ hr{
 ::-webkit-scrollbar-track{
 	background-color:transparentize($sc-neutral-shade-500, 1-0.05);
 }
+
+*/
