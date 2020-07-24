@@ -347,7 +347,8 @@ $sc-sidebar-size: 246px;
     bottom: auto;
     left: auto;
     width: auto;
-    height: $sc-secondary-menu-height;
+    //height: $sc-secondary-menu-height;
+    height: 53px;
     &.header-secondary-wrapper-standalone {
       height: 0;
     }
