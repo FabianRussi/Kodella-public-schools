@@ -1,4 +1,4 @@
-<div data-view="Global.BackToTop"></div>
+{* <div data-view="Global.BackToTop"></div> *}
 <div class="footer-content">
 
 	<section class="footer_top">
