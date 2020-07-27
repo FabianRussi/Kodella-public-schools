@@ -131,6 +131,9 @@ a.header-mini-cart-buttons {
   transition: background-color 0.15s ease-in-out;
   padding: 0px 7px 2px 8px;
   border-radius: 5px;
+  @media (max-width: 1200px) {
+    padding: 0px 9px 2px 8px;
+  }
   &:hover {
     background-color: #fc1d27;
   }

@@ -40,7 +40,7 @@
 		<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
 		<div class="header-sidebar-toggle-wrapper">
 			<button class="header-sidebar-toggle" data-action="header-sidebar-show">
-				<i class="header-sidebar-toggle-icon"></i>
+				 <i class="header-sidebar-toggle-icon"></i> Menu
 			</button>
 		</div>
 		<div class="header-content">

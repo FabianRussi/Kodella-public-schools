@@ -28,6 +28,14 @@
 .header-logo {
   svg {
     overflow: overlay;
+    @media (max-width: 993px) {
+      width: 180px;
+      height: 75px;
+    }
+    @media (max-width: 600px) {
+      width: 150px;
+      height: 50px;
+    }
   }
   .logo-heart {
     transform-origin: 18.87% 23.91%;
