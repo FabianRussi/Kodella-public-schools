@@ -26,7 +26,7 @@
 							{{/each}}
 						</ul>
 						{{!-- Tab Contents --}}
-						<div class="product-details-information-tab-content" data-type="information-content" data-action="tab-content">
+						<div class="product-details-information-tab-content product-details-full-content" data-type="information-content" data-action="tab-content">
 							{{#each details}}
 								<div role="tabpanel" class="product-details-information-tab-content-panel {{#if @first}}active{{/if}}" id="product-details-information-tab-{{@index}}" itemprop="{{itemprop}}" data-action="pushable" data-id="product-details-information-{{ @index }}">
 									{{#if ../showHeader}}<h2 class="product-details-information-tab-content-panel-title">{{name}}</h2>{{/if}}

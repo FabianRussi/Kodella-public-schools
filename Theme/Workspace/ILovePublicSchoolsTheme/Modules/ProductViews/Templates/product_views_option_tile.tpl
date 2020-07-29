@@ -1,4 +1,4 @@
-<div id="{{cartOptionId}}-container" class="product-views-option-tile" data-type="option" data-cart-option-id="{{cartOptionId}}" data-item-option-id="{{itemOptionId}}">
+<!-- <div id="{{cartOptionId}}-container" class="product-views-option-tile" data-type="option" data-cart-option-id="{{cartOptionId}}" data-item-option-id="{{itemOptionId}}">
 	<div class="{{cartOptionId}}-controls-group" data-validation="control-group">
 		{{#if showLabel}}
 			<label class="product-views-option-tile-label">
@@ -31,7 +31,7 @@
 			{{/each}}
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 

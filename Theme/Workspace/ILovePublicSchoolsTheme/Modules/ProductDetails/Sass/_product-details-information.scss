@@ -3,6 +3,53 @@
 }
 .product-details-information-content-tabs {
 	@extend .content-tabs;
+	margin-bottom:0;
+}
+
+.product-details-information-tab-content-container {
+	height:400px;
+}
+.product-details-information-tab-content-container ul li {
+	font-family: "Avenir LT Std 35 Light" !important;
+	font-weight:300 !important;
+	padding-left:40px;
+	list-style-type: disc !important;
+	font-size:14px;
+	height:23px;
+}
+.product-details-information-tab-content-container ul, .product-details-information-tab-content-container ol {
+	height:auto;
+}
+.product-details-information-content .product-tabs > ul li,
+.product-details-information-content .product-tabs > ul li a {
+	display: block;
+	line-height: 28px;
+	color: rgb(112, 112, 112);
+	font-size: 16px;
+	text-decoration: none;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	font-family: "Avenir LT Std 35 Light" !important;
+	font-weight:300 !important;
+	padding-left:0;
+}
+.product-description.powered-with-ckeditor p {
+	font-family: "Avenir LT Std 35 Light" !important;
+	font-weight:300 !important;
+}
+
+.product-details-information-content .tabs-body > ul li {
+	font-family: "Avenir LT Std 35 Light" !important;
+	font-weight:300 !important;
+	list-style-type: disc !important;
+}
+.product-details-information-content .tabs-body p {
+	margin-bottom:20px;
+}
+.product-details-information-content .tabs-body {
+	margin-top:10px;
 }
 .product-details-information-tab-title {
 	@extend .content-tabs-title;
@@ -18,6 +65,7 @@
 
 .product-details-information-tab-content-panel-title {
 	@extend .tab-content-panel-title;
+	display:none;
 }
 
 
@@ -96,15 +144,6 @@
 
 [data-action="sc-pushing"] .product-details-information-tab-content{
 	padding: $sc-padding-lv3 $sc-padding-lv6 $sc-padding-lv6 0;
-}
-
-
-.product-details-information-tab-content-container ul, .product-details-information-tab-content-container ol  {
-	margin-left: $sc-margin-lv4;
-}
-
-.product-details-information-tab-content-container ul li {
-	list-style: outside;
 }
 
 .product-details-information-tab-content-container ol li {

@@ -6,6 +6,7 @@
 .product-details-quantity-options {
 	margin-top:20px;
 	clear:both;
+	display:none;
 
 	[data-validation-error="block"] {
 		margin-top: $sc-margin-lv2;

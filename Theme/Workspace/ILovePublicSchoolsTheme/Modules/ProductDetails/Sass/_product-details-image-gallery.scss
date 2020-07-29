@@ -1,5 +1,7 @@
 .product-details-image-gallery {
 	position: relative;
+	width:320px;
+	height:320px;
 
 	.bx-wrapper img {
 		margin: auto;
@@ -9,14 +11,14 @@
 
 .product-details-image-gallery-container {
 	display: inline-block;
-	height: 250px;
+	height: 320px;
 
 	@media (min-width: $screen-sm-min) {
-		height: 400px;
+		height: 320px;
 	}
 
 	@media (min-width: $screen-lg-min) {
-		height: 555px;
+		height: 320px;
 	}
 
 	img {
@@ -43,14 +45,14 @@
 }
 
 .product-details-image-gallery-detailed-image {
-	height: 250px;
+	height: 320;
 
 	@media (min-width: $screen-sm-min) {
-		height: 400px;
+		height: 320px;
 	}
 
 	@media (min-width: $screen-lg-min) {
-		height: 555px;
+		height: 320px;
 	}
 
 	img {
