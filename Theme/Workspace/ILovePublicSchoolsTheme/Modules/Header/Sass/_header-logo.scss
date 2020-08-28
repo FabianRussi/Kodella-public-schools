@@ -1,0 +1,89 @@
+.header-logo {
+  display: block;
+  //@at-root: $sc-main-nav-height;
+  //height: $sc-main-nav-height;
+  height: auto;
+  margin-left: -$sc-margin-lv2;
+
+  @media (max-width: $screen-xs-min) {
+    max-width: 100%;
+  }
+
+  @media (min-width: $screen-sm-min) {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+.header-logo-image {
+  width: 90%;
+  max-width: 115px;
+  //max-height: 50px;
+  vertical-align: middle;
+
+  @media (min-width: $screen-md-min) {
+    width: auto;
+  }
+}
+.header-logo {
+  svg {
+    overflow: overlay;
+    @media (max-width: 993px) {
+      width: 180px;
+      height: 75px;
+    }
+    @media (max-width: 600px) {
+      width: 150px;
+      height: 50px;
+    }
+  }
+  .logo-heart {
+    transform-origin: 18.87% 23.91%;
+    animation: onLoadAnimation 1s ease-in-out;
+  }
+  &:hover {
+    .logo-heart {
+      transform-origin: 18.87% 23.91%;
+      animation: heartHoverAnimation 2s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes heartHoverAnimation {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes onLoadAnimation {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

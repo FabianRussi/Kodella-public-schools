@@ -1,0 +1,54 @@
+.cart-item-actions-links {
+	margin-top: $sc-margin-lv4;
+	display: table;
+	width: auto;
+	float:right;
+
+	a {
+		/*display:table-cell;*/
+		display:block;
+		/*height: $sc-target-size;*/
+		height:19px;
+		vertical-align: middle;
+		padding-right: $sc-margin-lv4;
+		width:100%;
+		text-align:center;
+		margin-right:0;
+		padding-right:0;
+		color: rgb(255, 255, 255);
+		box-shadow: 0px 1px 1px inset;
+		width: 64px;
+		font-size: 13px;
+		margin-bottom: 5px;
+		cursor: pointer;
+		font-weight: normal;
+		text-decoration: none;
+		border-width: 1px;
+		border-style: solid;
+		border-color: rgb(68, 68, 68);
+		border-image: initial;
+		border-radius: 2px;
+	}
+	a.cart-item-actions-item-list-actionable-edit-button-edit {
+		background: linear-gradient(rgb(68, 68, 68), rgb(68, 68, 68));
+		font-family: "Avenir LT Std 35 Light";
+		font-weight:300 !important;
+	}
+	a.cart-item-actions-item-list-actionable-edit-content-remove {
+		border-radius: 2px;
+		background: rgb(255, 0, 18);
+		border:none;
+	}
+	@media (max-width: $screen-md-max) {
+		margin-top: 0;
+	}
+}
+
+.cart-item-actions-item-list-actionable-edit-button-edit {
+	margin-right: $sc-margin-lv2;
+}
+
+.cart-item-actions-item-list-actionable-edit-content-saveforlater {
+	margin-right: $sc-margin-lv2;
+}
+

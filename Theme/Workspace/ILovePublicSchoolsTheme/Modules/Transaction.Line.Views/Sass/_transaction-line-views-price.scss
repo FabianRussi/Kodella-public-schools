@@ -1,0 +1,25 @@
+.transaction-line-views-price-lead{
+	@extend .middle-price;
+	font-size: 20px;
+    color: rgb(37, 37, 37);
+	margin-bottom: 8px;
+	font-weight: 100;
+    font-family: "Avenir LT Std 35 Light" !important;
+    font-weight: 300 !important;
+}
+
+.transaction-line-views-price-old{
+	@extend .old-price;
+}
+
+.transaction-line-views-price-login-to-see-prices-highlighted {
+	margin-top: $sc-margin-lv2;
+    margin-bottom: $sc-margin-lv2;
+}
+
+.transaction-line-views-price-message {
+	font-weight: normal;
+}
+
+
+

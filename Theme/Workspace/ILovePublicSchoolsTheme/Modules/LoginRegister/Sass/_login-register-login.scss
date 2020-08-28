@@ -1,0 +1,97 @@
+.login-register-login-description{
+	margin-top: $sc-margin-lv4;
+	margin-bottom: $sc-margin-lv4;
+}
+
+.login-register-login-form-controls-group{
+	margin-top: $sc-margin-lv4;
+}
+
+
+
+.login-register-login-form-required {
+	@extend .input-required;
+}
+
+.login-register-login-form-input {
+	@extend .input-large;
+}
+
+.login-register-login-submit {
+	@extend .button-large;
+	@extend .button-primary;
+	padding:7px 12px;
+	font-family: 'Avenir LT Std'!important;
+	font-weight: 300!important;
+	margin:13px 0 0 150px !important;
+}
+
+.login-register-login-forgot {
+
+	display:inline-block;
+	margin-top: $sc-margin-lv4;
+	color: #666666 !important;
+    padding: 16px 0 16px 136px;
+	text-decoration: underline !important;
+	font-size:16px;
+
+	@media (min-width: $screen-sm-min) {
+		margin-top: 0;
+	}
+}
+
+.login-register-login-form-messages {
+	margin-top: $sc-margin-lv4;
+
+	.global-views-message-error {
+		@extend .message-error;
+		margin-bottom: 0;
+	}
+
+	.global-views-message-button {
+		display: none;
+	}
+}
+
+.login-register-login-form-messages-timeout {
+	@extend .global-views-message;
+	@extend .global-views-message-error;
+}
+
+.login-register-login-form-controls-group {
+	@extend .login-register-register-form-controls-group;
+}
+
+
+input.login-register-login-form-input, 
+input.login-register-register-form-input, 
+input.login-register-register-form-input {
+	@extend .login-register-register-form-controls !optional;
+	display:inline-block;
+	width:188px;
+	min-width:188px;
+	border: 1px solid;
+    width: 188px;
+    height: 24px;
+    padding: 0 6px;
+    color: #666;
+    font-family: Arial, Helvetica;
+    font-size: 14px;
+    margin-bottom: 6px;
+    line-height: 24px;
+}
+
+
+.login-register-login-form-label,
+.login-register-register-form-label {
+	color: #333333;
+    font-size: 12.5px;
+    display: block;
+    float: left;
+	width: 150px;
+	margin-top:2px;
+}
+
+.login-register-register-form-label {
+	margin-top:0;
+}

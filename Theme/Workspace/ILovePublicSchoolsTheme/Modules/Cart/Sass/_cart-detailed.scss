@@ -1,0 +1,240 @@
+.cart-detailed{
+	@extend .cart;
+	width:1180px;
+	margin-top:50px;
+	padding:0;
+
+	.transaction-line-views-selected-option-color-label-text,
+	.transaction-line-views-tax-label,
+	.cart-item-summary-item-list-actionable-amount-label,
+	.cart-item-summary-item-list-actionable-label-qty{
+		color: $sc-color-copy-dark;
+		font-weight: 100;
+	}
+
+	.transaction-line-views-selected-option {
+		.transaction-line-views-selected-option-label{
+			color: $sc-color-copy-dark;
+			font-weight: 100;
+		}
+	}
+	@media only screen and (max-width:1210px) {
+		width:100%;
+		display:block;
+		padding:25px;
+	}
+}
+
+
+
+.cart-detailed-title{
+	@extend .cart-title;
+    font-family: 'Avenir LT Std'!important;
+	font-weight: 300!important;
+	border-bottom:none !important;
+	font-size:30px;
+	text-rendering: optimizeLegibility;
+	margin-bottom:12px !important;
+}
+
+.cart-detailed-title-details-count{
+	@extend .cart-title-details-count;
+	@extend .middle-price;
+}
+
+
+
+.cart-detailed-right{
+	@extend .cart-right;
+	margin-top: $sc-margin-lv4;
+	@media (min-width: $screen-sm-min) {
+		margin-top: 0;
+	}
+}
+
+.cart-detailed-body{
+	@extend .cart-body;
+	margin:0;
+	padding:0;
+}
+
+.cart-detailed-left{
+	@extend .cart-left;
+	width:100%;
+}
+
+.cart-detailed-empty{
+	@extend .cart-empty;
+}
+
+
+.cart-detailed-body .cart-header {
+	padding: 10px 0;
+    border-top: 1px solid;
+	border-bottom: 1px solid;
+	height:41px;
+	line-height: 18px;
+	clear:both;
+}
+
+.cart-detailed-body .cart-header span.item-details {
+    width: 60%;
+}
+.cart-header span.item-price {
+    text-align: right;
+	width: 15%;
+}
+.cart-header span.item-quantity {
+	text-align: right;
+	float:right;
+}
+.cart-detailed-body .cart-header span {
+    display: inline-block;
+    font-size: 13px;
+	color: inherit;
+    font-family: "Avenir LT Std 35 Light" !important;
+    font-weight: 300 !important;
+}
+
+
+.cart-detailed-savedforlater {
+	@extend .cart-savedforlater;
+
+	.product-list-details-later {
+		border-top:1px solid $sc-color-theme-border-light;
+		padding-top: $sc-padding-lv6;
+		border-bottom: 0;
+		margin: 0;
+	}
+	.product-list-details-later-button-saveforlater-pusher {
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+}
+
+.cart-detailed-proceed-to-checkout-container{
+	@extend .cart-proceed-to-checkout-container;
+}
+
+.cart-detailed-proceed-to-checkout{
+	@extend .cart-proceed-to-checkout;
+}
+
+
+
+.cart-detailed-body-empty-title{
+	@extend .cart-body-empty-title !optional;
+}
+
+	.product-list-details-later {
+		border-top:1px solid $sc-color-theme-border-light;
+		padding-top: $sc-padding-lv6;
+}
+
+
+
+.cart-detailed-recently-viewed{
+	border-top:1px solid $sc-color-theme-border-light;
+	padding-top: $sc-padding-lv6;
+}
+
+
+.cart-buttons-container {
+	float:left;
+	margin-bottom:20px;
+}
+.cart-buttons-container span {
+	display:inline-block;
+	margin:0 20px;
+}
+
+.btn_2.empty-cart.custom-button,
+.btn_2.continue-shopping.custom-button {
+	display: inline-block;
+    position: relative;
+    padding: 4px 10px 4px 10px;
+    border: 1px #666 solid;
+    border-radius: 2px;
+    cursor: pointer;
+    background: #666;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#666), to(#666));
+    background: -webkit-linear-gradient(#666, #666);
+    background: -moz-linear-gradient(#666, #666);
+    background: -ms-linear-gradient(#666, #666);
+    background: -o-linear-gradient(#666, #666);
+    background: linear-gradient(#666, #666);
+    -pie-background: linear-gradient(#666, #666);
+    font-size: 14px !important;
+    color: #fff !important;
+    font-family: "Avenir LT Std 35 Light" !important;
+    font-weight: 300 !important;
+}
+.cart-page div.cart-buttons-container span {
+    margin: 5px 15px;
+}
+.cart-page div.cart-buttons-container a, div.cart-buttons-container span {
+    display: inline-block;
+    position: relative;
+}
+
+
+.cart-detailed-body-empty-info{
+	@extend .cart-body-empty-info;
+}
+
+.cart-detailed-item-view-cell-actionable-table{
+	@extend .transaction-line-views-cell-actionable-table;
+  	border-collapse: collapse;
+
+	.transaction-line-views-cell-actionable-table-middle, .transaction-line-views-cell-actionable-table-first,
+	.transaction-line-views-cell-actionable-table-last {
+    	padding-bottom: 0;
+
+		@media (min-width: $screen-md-min) {
+			padding-bottom: 80px;
+		}
+	}
+
+	td {
+		padding-bottom: 80px;
+	}
+	.quantity-pricing td {
+		padding-bottom: $sc-padding-lv1;
+	}
+}
+
+
+
+
+.cart-detailed-item-free-info{
+	@extend .row;
+	margin: 0;
+}
+.cart-detailed-item-free-info .global-views-message-info {
+	@extend .col-xs-12;
+	@extend .col-md-8;
+	@extend .col-md-offset-4;
+	@extend .col-lg-offset-3;
+	@extend .col-lg-9;
+}
+
+
+@media only screen and (max-width:660px) {
+	#cart-top,
+	.cart-detailed-title {
+		text-align:center;
+	}
+	.cart-buttons-container {
+		display:inline-block;
+		float:none;
+	}
+}
+
+@media only screen and (max-width:420px) {
+	.btn_2.empty-cart.custom-button,
+	.btn_2.continue-shopping.custom-button,
+	.cart-summary-subtotal {
+		text-align:center;
+		width:100%;
+	}
+}
