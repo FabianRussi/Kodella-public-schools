@@ -69,8 +69,8 @@
 				<li class="header-sidebar-menu-myaccount" data-view="Header.Menu.MyAccount"></li>
 			{{/if}}
 			{{#unless isStandalone}}
-			<li data-view="QuickOrderHeaderLink"></li>
-			<li data-view="RequestQuoteWizardHeaderLink"></li>
+			<!--<li data-view="QuickOrderHeaderLink"></li>
+			<li data-view="RequestQuoteWizardHeaderLink"></li>-->
 			{{/unless}}
 		</ul>
 

@@ -1,6 +1,7 @@
 <div class="header-message" data-view="Message.Placeholder"></div>
 
 <div class="header-main-wrapper {{#if isStandalone}}header-main-wrapper-standalone{{/if}}">
+	<!--
     {{#unless isStandalone}}
 	<div class="header-subheader">
         <div class="header-subheader-container">
@@ -34,7 +35,7 @@
 		</div>
 	</div>
     {{/unless}}
-
+	-->
 	<nav class="header-main-nav">
 		<div id="banner-header-top" class="content-banner banner-header-top" data-cms-area="header_banner_top" data-cms-area-filters="global"></div>
 		<div class="header-sidebar-toggle-wrapper">
@@ -47,15 +48,18 @@
 				<div data-view="Header.Logo"></div>
 			</div>
 			<div class="header-right-menu">
-				<div class="header-menu-profile" data-view="Header.Profile"></div>
+				
 				{{#unless isStandalone}}
-				<div class="header-menu-locator-mobile" data-view="StoreLocatorHeaderLink"></div>
-				<div class="header-menu-searchmobile" data-view="SiteSearch.Button"></div>
+				<!--<div class="header-menu-locator-mobile" data-view="StoreLocatorHeaderLink"></div>-->
+				<!--<div class="header-menu-searchmobile" data-view="SiteSearch.Button"></div>-->
+				<div class="header-menu-profile" data-view="Header.Profile"></div>
 				<div class="header-menu-cart">
 					<div class="header-menu-cart-dropdown" >
 						<div data-view="Header.MiniCart"></div>
 					</div>
 				</div>
+				<div data-view="SiteSearch"></div>
+				
 				{{/unless}}
 			</div>
 		</div>
@@ -67,7 +71,7 @@
 <div class="header-sidebar-overlay" data-action="header-sidebar-hide"></div>
 <div class="header-secondary-wrapper{{#if isStandalone}} header-secondary-wrapper-standalone{{/if}}" data-view="Header.Menu" data-phone-template="header_sidebar" data-tablet-template="header_sidebar"></div>
 {{#unless isStandalone}}
-<div data-view="SiteSearch"></div>
+<!--<div data-view="SiteSearch"></div>-->
 {{/unless}}
 
 
