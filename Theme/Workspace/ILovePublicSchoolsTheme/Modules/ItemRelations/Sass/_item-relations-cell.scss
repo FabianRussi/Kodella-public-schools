@@ -1,0 +1,26 @@
+.item-relations-cell {
+    text-align: center;
+    .carousel-control.left,
+    .carousel-control.right {
+        color: #747474;
+        font-size: 16px;
+        font-weight: 100;
+        font-family: "Avenir LT Std 35 Light";
+        cursor: pointer;
+        line-height: 30px;
+        text-align: center;
+        margin-top: -13px;
+        background-image:none !important;
+    }
+    .item-price-merchand {
+        filter: none !important;
+        background-image: none !important;
+        display: block;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #252525;
+        font-weight: 100;
+        font-family: "Avenir LT Std 35 Light";
+    }
+}

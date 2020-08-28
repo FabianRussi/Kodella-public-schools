@@ -1,0 +1,79 @@
+.itemssearcher-input {
+  @extend .nav-search-input;
+  padding: 12px 0 10px 15px !important;
+  height: 20px;
+  box-shadow: none;
+  width: 180px !important;
+  margin: 0;
+  border-radius: 5px !important ;
+  font-size: 12px !important;
+  font-family: "Avenir LT Std 35 Light" !important;
+}
+
+.itemssearcher-input::placeholder {
+  font-size: 12px !important;
+  color: rgb(112, 112, 112);
+  font-family: "Avenir LT Std 35 Light" !important;
+}
+
+.itemssearcher-item-all-results {
+  color: #1a1a1a;
+  cursor: pointer;
+  &:hover {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+  &:focus {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+  &:active {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+}
+.itemssearcher-item-results {
+  color: #1a1a1a;
+  cursor: pointer;
+  &:hover {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+  &:focus {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+  &:active {
+    a {
+      color: #414040 !important;
+      background: #ffffff !important;
+    }
+  }
+}
+.itemssearcher-item-results-title {
+  color: #1a1a1a;
+  &:hover {
+    color: #414040 !important;
+  }
+  &:focus {
+    color: #414040 !important;
+  }
+  &:active {
+    color: #414040 !important;
+  }
+}
+.itemssearcher-item-results {
+  &:hover {
+    color: #414040 !important;
+  }
+}
