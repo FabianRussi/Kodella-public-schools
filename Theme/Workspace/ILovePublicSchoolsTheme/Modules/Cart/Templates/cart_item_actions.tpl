@@ -1,6 +1,13 @@
+<<<<<<< HEAD
+<div class="cart-lines-summary" data-view="Item.Summary.View"></div>
+<div class="cart-item-actions-links">
+	{{#if isAdvanced}}
+		<a href="{{editUrl}}" class="cart-item-actions-item-list-actionable-edit-button-edit" data-toggle="show-in-modal">{{translate 'Update'}}</a>
+=======
 <div class="cart-item-actions-links">
 	{{#if isAdvanced}}
 		<a href="{{editUrl}}" class="cart-item-actions-item-list-actionable-edit-button-edit" data-toggle="show-in-modal">{{translate 'Edit'}}</a>
+>>>>>>> origin/new-develop
 
 		{{#if showSaveForLateButton}}
 			<a class="cart-item-actions-item-list-actionable-edit-content-saveforlater" data-action="save-for-later-item" data-internalid="{{lineId}}">

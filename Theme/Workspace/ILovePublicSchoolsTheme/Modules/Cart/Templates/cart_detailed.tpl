@@ -4,9 +4,12 @@
 			{{#if showLines}}
 			<h1 class="cart-detailed-title">
 				{{pageHeader}}
+<<<<<<< HEAD
+=======
 				<small class="cart-detailed-title-details-count">
 					{{productsAndItemsCount}}
 				</small>
+>>>>>>> origin/new-develop
 			</h1>
 			{{else}}
 				<h2 class="cart-detailed-title">{{translate 'Your Shopping Cart is empty'}}</h2>
@@ -14,9 +17,50 @@
 		</header>
 	</div>
 
+<<<<<<< HEAD
+	<!--<div data-cms-area="cart_detailed_cms_area_1" data-cms-area-filters="path"></div>-->
+
+	<div class="cart-detailed-body">
+		<div id="cart-top" class="clrfix">
+			<div class="cart-buttons-container">
+				<a href="#" class="btn_2 empty-cart custom-button">Clear Cart</a>
+				<span>or</span>
+				<a href="/" class="btn_2 continue-shopping custom-button">Continue Shopping</a>
+			</div>
+			<div data-view="Cart.Summary"></div>
+			
+			{{#if showActions}}
+				<div class="cart-summary-button-container">
+					<a id="btn-proceed-checkout" class="cart-summary-button-proceed-checkout {{#if showProceedButton}} cart-summary-button-proceed-checkout-sb {{/if}}" href="#" data-touchpoint="checkout" data-hashtag="#">
+						{{translate 'Proceed to Checkout'}}
+					</a>
+
+					{{#if showPaypalButton}}
+						<div class="cart-summary-btn-paypal-express">
+							<a href="#" data-touchpoint="checkout" data-hashtag="#" data-parameters="paypalexpress=T">
+								<img src="{{paypalButtonImageUrl}}" class="cart-summary-btn-paypal-express-image" alt="PayPal Express" />
+							</a>
+						</div>
+					{{/if}}
+
+					{{#if isWSDK}}
+						<a class="cart-summary-continue-shopping" href="{{continueURL}}">
+							{{translate 'Continue Shopping'}}
+						</a>
+					{{/if}}
+				</div>
+			{{/if}}
+		</div>
+		<div class="cart-header clrfix">
+			<span class="item-details">Item Details</span>
+			<span class="item-price">Total</span>
+			<span class="item-quantity">Quantity</span>
+		</div>
+=======
 	<div data-cms-area="cart_detailed_cms_area_1" data-cms-area-filters="path"></div>
 
 	<div class="cart-detailed-body">
+>>>>>>> origin/new-develop
 		<section class="{{#if showLines}}cart-detailed-left {{else}}cart-detailed-empty{{/if}}">
 			{{#unless showLines}}
 				<div data-view="Quick.Order.EmptyCart">
@@ -25,15 +69,27 @@
 					</p>
 				</div>
 			{{/unless}}
+<<<<<<< HEAD
+		
+			<!-- <div data-view="Quick.Order"></div> -->
+		
+			{{#if showLines}}
+		<!--
+=======
 
 			<div data-view="Quick.Order"></div>
 
 			{{#if showLines}}
+>>>>>>> origin/new-develop
 			<div class="cart-detailed-proceed-to-checkout-container">
 				<a class="cart-detailed-proceed-to-checkout" data-action="sticky" href="#" data-touchpoint="checkout" data-hashtag="#">
 					{{translate 'Proceed to Checkout'}}
 				</a>
 			</div>
+<<<<<<< HEAD
+		-->
+=======
+>>>>>>> origin/new-develop
 			<div data-confirm-message class="cart-detailed-confirm-message"></div>
 
 			<div class="cart-detailed-item-view-cell-actionable-table cart-detailed-table-row-with-border">
@@ -45,12 +101,34 @@
 			<div class="cart-detailed-item-free" data-view="Item.FreeGift"></div>
 			{{/if}}
 
+<<<<<<< HEAD
+			<!--<div data-cms-area="cart_detailed_cms_area_2" data-cms-area-filters="path"></div>-->
+		</section>
+				<div class="cart-summary-subtotal">
+					<p class="cart-summary-grid-float">
+						<span class="cart-summary-amount-subtotal">
+							$89.95
+						</span>
+							Subtotal <span class="cart-summary-item-quantity-subtotal">3 items</span>
+					</p>
+					<a id="btn-proceed-checkout" class="cart-summary-button-proceed-checkout " href="#" data-touchpoint="checkout" data-hashtag="#">
+						Checkout
+					</a>
+					<div class="cart-summary-subtotal-legend">
+						Subtotal does not include shipping or tax
+					</div>
+				</div>
+		{{#if showLines}}
+		<section class="cart-detailed-right">
+			<!-- <div data-view="Cart.Summary"></div> -->
+=======
 			<div data-cms-area="cart_detailed_cms_area_2" data-cms-area-filters="path"></div>
 		</section>
 
 		{{#if showLines}}
 		<section class="cart-detailed-right">
 			<div data-view="Cart.Summary"></div>
+>>>>>>> origin/new-develop
 		</section>
 		{{/if}}
 	</div>
@@ -66,7 +144,11 @@
 		{{/if}}
 	</div>
 
+<<<<<<< HEAD
+	<!--<div data-cms-area="cart_detailed_cms_area_3" data-cms-area-filters="path"></div>-->
+=======
 	<div data-cms-area="cart_detailed_cms_area_3" data-cms-area-filters="path"></div>
+>>>>>>> origin/new-develop
 </div>
 
 

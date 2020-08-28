@@ -24,7 +24,11 @@
 						{{translate 'Email Address <small class="login-register-forgot-password-form-required">*</small>'}}
 					</label>
 					<div class="login-register-forgot-password-form-controls" data-validation="control">
+<<<<<<< HEAD
+						<input type="email" name="email" id="email" class="login-register-forgot-password-form-input" placeholder="{{translate 'username or email'}}">
+=======
 						<input type="email" name="email" id="email" class="login-register-forgot-password-form-input" placeholder="{{translate 'your@email.com'}}">
+>>>>>>> origin/new-develop
 					</div>
 				</div>
 

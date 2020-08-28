@@ -1,4 +1,8 @@
 <ul class="merchandising-zone-row-template" data-type="carousel-items">
+<<<<<<< HEAD
+<script>console.log(8060)</script>
+=======
+>>>>>>> origin/new-develop
     <div data-type="backbone.collection.view.cells"></div>
 </ul>
 

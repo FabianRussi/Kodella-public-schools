@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+#register-show-view {
+	text-align:center;
+}
+
+.login-register-title-register {
+	color: #4d5760;
+    font-size: 20px;
+    font-family: "Avenir LT Std 35 Light" !important;
+    font-weight: 300 !important;
+    text-align: center;
+    padding: 0 0 23px 0;
+}
+
+=======
+>>>>>>> origin/new-develop
 .login-register-register-form-description{
 	margin-top: $sc-margin-lv4;
 	margin-bottom: $sc-margin-lv4;
@@ -5,23 +21,80 @@
 
 .login-register-register-form-controls-group{
 	margin-top: $sc-margin-lv4;
+<<<<<<< HEAD
+	margin-top:5px;
+=======
+>>>>>>> origin/new-develop
 }
 
 
 
+<<<<<<< HEAD
+.login-register-register-form-required{
+	@extend .input-required;
+	color:#333;
+	border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted; 
+	text-decoration: underline dotted;
+	margin-left:1px;
+=======
 
 
 .login-register-register-form-required{
 	@extend .input-required;
+>>>>>>> origin/new-develop
 }
 
 .login-register-register-form-input{
 	@extend .input-large;
 }
 
+<<<<<<< HEAD
+.login-register-register-form-submit,
+.login-register-login-submit {
+	@extend .button-large;
+	@extend .button-primary;
+    padding: 7px 12px;
+    font-family: "Avenir LT Std 35 Light" !important;
+	font-weight: 300 !important;
+	display:block;
+	margin:0 auto;
+	clear:both;
+	border: 1px #444444 solid;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0 1px 1px inset;
+    font-weight: bold;
+    cursor: pointer;
+    background: #444444;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#444444), to(#444444));
+    background: -webkit-linear-gradient(#444444, #444444);
+    background: -moz-linear-gradient(#444444, #444444);
+    background: -ms-linear-gradient(#444444, #444444);
+    background: -o-linear-gradient(#444444, #444444);
+    background: linear-gradient(#444444, #444444);
+    -pie-background: linear-gradient(#444444, #444444);
+}
+
+.login-register-register-form-submit:hover,
+.login-register-login-submit:hover {
+	background: #444444;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#444444), to(#444444));
+    background: -webkit-linear-gradient(#444444, #444444);
+    background: -moz-linear-gradient(#444444, #444444);
+    background: -ms-linear-gradient(#444444, #444444);
+    background: -o-linear-gradient(#444444, #444444);
+    background: linear-gradient(#444444, #444444);
+    -pie-background: linear-gradient(#444444, #444444);
+	border: 1px #444444 solid;
+=======
 .login-register-register-form-submit{
 	@extend .button-large;
 	@extend .button-primary;
+>>>>>>> origin/new-develop
 }
 
 .login-register-register-form-messages{

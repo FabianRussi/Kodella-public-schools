@@ -13,7 +13,11 @@
   //@extend .row;
 }
 .home-image-slider {
+<<<<<<< HEAD
+  //@extend .col-sm-12; 
+=======
   //@extend .col-sm-12;
+>>>>>>> origin/new-develop
 }
 
 // start bx-slider specifics
@@ -309,7 +313,11 @@ $sc-image-slider-max-width-mobile: 100%;
 }
 .merch-zone-title {
   text-align: center;
+<<<<<<< HEAD
+  font-family: "Avenir LT Std 35 Light" !important;
+=======
   font-family: "Avenir LT Std 35 Light";
+>>>>>>> origin/new-develop
   font-weight: 100;
   font-size: 30px !important;
   color: #333333;
@@ -318,3 +326,126 @@ $sc-image-slider-max-width-mobile: 100%;
     margin-top: -2px;
   }
 }
+<<<<<<< HEAD
+
+.cms-content-selector-CMS_MERCHZONE-4 {
+  padding: 0px 15px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 {
+  display:inline-block;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 5px solid #000;
+  background: #fff;
+  position: relative;
+  width: 32%;
+  height: 475px;
+  text-align: center;
+  font-size: 14px;
+  color: #747474;
+  padding-bottom: 0;
+  margin: 0px 5px;
+  margin-bottom: 5px;
+  vertical-align: top;
+  overflow:hidden;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 h5 {
+  margin-bottom:0;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .item-name-merchand {
+  color:#747474;
+  font-size:16px;
+  font-weight:100;
+  font-family: "Avenir LT Std 35 Light";
+  cursor:pointer;
+  line-height:30px;
+  text-align:center;
+  margin-top:-13px;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .item-price-merchand {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #252525;
+  font-weight:100;
+  font-family: "Avenir LT Std 35 Light";
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-control {
+  opacity:1 !important;
+  color:#4b4b4b;
+  font-size:40px!important;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-inner {
+  width: 375px;
+  height: 350px;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-inner>.item {
+  float: left;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  vertical-align: middle;
+  line-height: 375px;
+  width: 375px !important;
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-inner>.item>img {
+  height: auto;
+  max-height: 350px;
+  width: auto;
+  max-width: 350px;
+  vertical-align: middle;
+  display: initial;
+}
+
+@media only screen and (max-width:1200px){
+  .cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-inner,
+  .cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-inner>.item {
+    width:100% !important;
+  }
+}
+
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-control.right,
+.cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-control.left {
+      /* background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); */
+      /* background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5))); */
+      /* background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%); */
+      filter: none !important;
+      background-image: none !important;
+      @media only screen and (max-width:962px){
+        .cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-control.right {
+          right:30px;
+        }
+        .cms-content-selector-CMS_MERCHZONE-4 .span3 .carousel-control.left {
+          left:30px;
+        }
+      }
+}
+
+
+@media only screen and (max-width:962px){
+  .cms-content-selector-CMS_MERCHZONE-4 .span3 {
+    width:48%;
+  }
+}
+
+@media only screen and (max-width:660px){
+  .cms-content-selector-CMS_MERCHZONE-4 .span3 {
+    width:100%;
+  }
+}
+=======
+>>>>>>> origin/new-develop

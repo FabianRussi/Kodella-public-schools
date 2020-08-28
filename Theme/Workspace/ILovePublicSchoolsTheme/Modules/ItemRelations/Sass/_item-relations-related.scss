@@ -44,4 +44,18 @@
 }
 .control-text{
 	display:none;
+<<<<<<< HEAD
+}
+
+.item-relations-related-row > div{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-rows: auto;
+	column-gap: 20px;
+	grid-row-gap:20px;
+	@media (max-width:993px) {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+=======
+>>>>>>> origin/new-develop
 }

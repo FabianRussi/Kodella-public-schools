@@ -61,10 +61,17 @@
 					{{translate 'Email Address <small class="login-register-checkout-as-guest-required">*</small>'}}
 				</label>
 				<div class="login-register-checkout-as-guest-controls" data-validation="control">
+<<<<<<< HEAD
+					<input type="email" name="email" id="guest-email" class="login-register-checkout-as-guest-input" placeholder="{{translate 'username or email'}}" value="">
+					<!--<p class="login-register-checkout-as-guest-help-block">
+						<small>{{translate 'We need your email address to contact you about your order.'}}</small>
+					</p>-->
+=======
 					<input type="email" name="email" id="guest-email" class="login-register-checkout-as-guest-input" placeholder="{{translate 'your@email.com'}}" value="">
 					<p class="login-register-checkout-as-guest-help-block">
 						<small>{{translate 'We need your email address to contact you about your order.'}}</small>
 					</p>
+>>>>>>> origin/new-develop
 				</div>
 			</div>
 		{{/if}}

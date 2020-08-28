@@ -1,15 +1,35 @@
 .cart-lines-name{
 	margin-bottom:$sc-margin-lv2;
+<<<<<<< HEAD
+	margin-bottom:6px;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-name-link{
 	@extend .medium-title-navigable;
+<<<<<<< HEAD
+	color: rgb(102, 102, 102);
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-family: "Avenir LT Std 35 Light" !important;
+    font-weight: 300 !important;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-name-viewonly{
 	@extend .medium-title-viewonly;
 }
 
+<<<<<<< HEAD
+.cart-lines-price{
+	margin-bottom:$sc-margin-lv2;
+}
+
+.transaction-line-views-price {
+	margin-bottom:8px;
+=======
 .cart-lines-thumbnail{
 	img{
 		width:$img-larger;
@@ -18,6 +38,7 @@
 
 .cart-lines-price{
 	margin-bottom:$sc-margin-lv2;
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-price .transaction-line-views-price-lead{
@@ -33,21 +54,53 @@
 .cart-lines-row {
 	@extend .row;
 	margin-bottom:$sc-margin-lv4;
+<<<<<<< HEAD
+	margin-bottom:0;
+	padding: 10px 0px;
+	border-top: 1px solid rgb(229, 229, 229);
+	display:flex;
+}
+=======
 	}
+>>>>>>> origin/new-develop
 
 .cart-lines-table-first {
 	@extend .col-xs-4;
 	@extend .col-lg-3;
+<<<<<<< HEAD
+	float: left;
+    margin-left: 19px;
+    width: 180px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-table-middle {
 	@extend .col-xs-8;
 	@extend .col-lg-5;
+<<<<<<< HEAD
+	width:46%;
+	flex:1;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-table-last {
 	@extend .col-xs-12;
 	@extend .col-lg-4;
+<<<<<<< HEAD
+	padding-right:0;
+	width:36%;
+	flex:1;
+}
+.cart-lines-table-last div:first-child {
+	text-align: right;
+	display:inline-block;
+	width:217px;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-lines-alert-placeholder {
@@ -71,4 +124,90 @@
 }
 
 
+<<<<<<< HEAD
+.cart-lines-name a {
+	color: #666666;
+    font-size: 20px;
+	font-family: "Avenir LT Std 35 Light";
+    font-weight: 300!important;
+    margin: 0 0 .25em;
+    text-rendering: optimizeLegibility;
+}
 
+.cart-lines-thumbnail{
+	img{
+		width:$img-larger;
+		max-width: 100%;
+		max-height: 100px;
+		min-height: 34px;
+		width:auto;
+		display: block;
+		margin: auto;
+	}
+}
+
+.cart-item-summary-item-list-actionable-qty {
+	top:0;
+	position:absolute;
+	right:0;
+}
+
+.cart-lines-summary {
+	display: block;
+    width: 217px;
+    text-align: right;
+}
+
+.cart-item-actions-links {
+	position:absolute;
+	right: 0;
+	top:19px;
+}
+
+@media only screen and (max-width:962px) {
+	.cart-lines-table-middle {
+		flex: 0.7;
+	}
+	.cart-lines-table-last {
+		flex:1;
+	}
+	.cart-lines-table-last div:first-child,
+	.cart-item-summary-item-list-actionable-amount {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.cart-item-actions-links {
+		float: right;
+		width: 64px !important;
+		display: block;
+		top:38px;
+	}
+}
+
+@media only screen and (max-width:760px) {
+	.cart-lines-row {
+		flex-wrap:wrap;
+		display:block;
+	}
+	.cart-lines-row div {
+		width:100%;
+	}
+	.cart-lines-table-last div:first-child, .cart-item-summary-item-list-actionable-amount {
+		text-align:left;
+	}
+	.cart-item-summary-item-list-actionable-amount {
+		position:absolute;
+		top:30px;
+		right:0;
+		padding-left:14px;
+	}
+	.cart-lines-table-last {
+		margin-top:20px;
+		margin-bottom:60px;
+	}
+}
+=======
+
+>>>>>>> origin/new-develop
