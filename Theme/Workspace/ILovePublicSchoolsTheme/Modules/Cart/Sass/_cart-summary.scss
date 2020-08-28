@@ -1,7 +1,10 @@
 .cart-summary-container{
 		margin-bottom:$sc-margin-lv4;
 		border:1px solid $sc-color-theme-border;
+<<<<<<< HEAD
 		border:none;
+=======
+>>>>>>> origin/new-develop
 		@media(min-width: $screen-sm-min){
 			margin-bottom:0px;
 		}
@@ -64,6 +67,7 @@
 }
 
 .cart-summary-button-proceed-checkout {
+<<<<<<< HEAD
 	@extend .button-proceed-checkout;
 	display:inline-block !important;
     padding: 10px 12px;
@@ -90,6 +94,10 @@
 	-pie-background: linear-gradient(#444444, #444444);
 	text-transform: uppercase;
 	width:116px;
+=======
+	display: none;
+	@extend .button-proceed-checkout;
+>>>>>>> origin/new-develop
 
 	&.cart-summary-button-proceed-checkout-sb {
 		display: block;
@@ -106,15 +114,29 @@
 	}
 }
 
+<<<<<<< HEAD
 
 .cart-summary-subtotal-legend,
 .cart-summary-expander-container,
 .cart-summary-title {
+=======
+.cart-summary-subtotal{
+	margin-bottom:$sc-margin-lv3;
+	font-weight:$sc-font-weight-bold;
+	text-transform:uppercase;
+	font-size:$sc-font-size-s;
+}
+
+.cart-summary-subtotal-legend{
+>>>>>>> origin/new-develop
 	font-size:$sc-font-size-s;
 	text-transform:capitalize;
 	font-weight:$sc-font-weight-normal;
 	margin:0px $sc-margin-lv3 $sc-margin-lv3 $sc-margin-lv3;
+<<<<<<< HEAD
 	display:none;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-summary-grid{
@@ -123,8 +145,11 @@
 
 .cart-summary-grid-float{
 	@extend .summary-grid-float;
+<<<<<<< HEAD
 	display:inline-block;
 	text-transform: normal !important;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-summary-shipping-cost-applied{
@@ -198,7 +223,10 @@
 
 .cart-summary-amount-subtotal{
 	@extend .cart-summary-grid-right;
+<<<<<<< HEAD
 	padding-right:7px;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-summary-label-discount-total{
@@ -236,7 +264,10 @@
 
 .cart-summary-promocode-container {
 	margin-top: $sc-margin-lv3;
+<<<<<<< HEAD
 	display:none;
+=======
+>>>>>>> origin/new-develop
 }
 
 
@@ -312,6 +343,7 @@
 	@extend .cart-summary-grid-right;
 	color: $sc-color-success;
 }
+<<<<<<< HEAD
 
 
 .cart-summary-subtotal{
@@ -336,3 +368,5 @@
 		text-align:center !important;
 	}
 }
+=======
+>>>>>>> origin/new-develop

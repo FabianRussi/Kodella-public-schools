@@ -1,6 +1,7 @@
 footer {
   background: $sc-footer-background-color;
   border-top: 1px solid $sc-footer-border-color;
+<<<<<<< HEAD
   background: transparent;
   border-top: none;
   color: $sc-footer-text-color;
@@ -62,6 +63,62 @@ footer {
   @media (min-width: $screen-md-min) {
     text-align: left;
     padding-bottom: 0;
+=======
+  background:transparent;
+  border-top:none;
+  color: $sc-footer-text-color;
+  p {
+      color: $sc-footer-text-color;
+      margin-right: $sc-margin-lv2;
+  }
+  a {
+      color: $sc-footer-link-color;
+      margin-right: $sc-margin-lv2;
+      &:hover {
+          color: $sc-footer-link-color-hover;
+      }
+      &:active {
+          color: $sc-footer-link-color-active;
+      }
+  }
+  ul{
+      @extend .col-md-8;
+      @extend .col-xs-12;
+      display:inline-block;
+      list-style: none;
+      margin: 0;
+      margin-right: $sc-margin-lv2;
+      font-weight: 300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      color: $sc-footer-headings-color;
+  }
+  input {
+      background: $sc-footer-fields-background-color;
+      border: 1px solid $sc-footer-fields-border-color;
+      color: $sc-footer-fields-text-color;
+  }
+  button, button.button-secondary, button.button-tertiary {
+      @extend .button-medium;
+      background: $sc-footer-buttons-background-color;
+      color: $sc-footer-buttons-text-color;
+      border: 1px solid $sc-footer-buttons-border-color;
+  }
+}
+.footer-content{
+  margin: auto;
+  text-align: center;
+  padding: $sc-padding-lv6 0 0;
+  padding-bottom:0;
+  @media (min-width: $screen-sm-min) {
+      padding-top: $sc-padding-lv5;
+      padding-bottom: $sc-padding-lv5;
+      padding-bottom:0;
+  }
+  @media (min-width: $screen-md-min) {
+      text-align: left;
+      padding-bottom:0;
+>>>>>>> origin/new-develop
   }
 }
 .footer-content-col4 {
@@ -86,11 +143,14 @@ footer {
   text-align: center;
   margin-bottom: 7px;
 }
+<<<<<<< HEAD
 .footer_top .watch-share-explore .watch-share-explore-item:hover .watch-share-explore-item-heading,
 .footer_top .watch-share-explore .watch-share-explore-item:hover .watch-share-explore-item-text {
   text-decoration: none !important;
 }
 
+=======
+>>>>>>> origin/new-develop
 .footer_top .watch-share-explore-item-icons {
   -webkit-transform: translateY(0);
   transform: translateY(0);
@@ -105,14 +165,20 @@ footer {
   margin-bottom: 23px;
 }
 .footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(1) {
+<<<<<<< HEAD
   -webkit-transform: translate(-8px, -8px) rotate(-5deg);
   transform: translate(-8px, -8px) rotate(-5deg);
+=======
+  -webkit-transform: translate(-8px,-8px) rotate(-5deg);
+  transform: translate(-8px,-8px) rotate(-5deg);
+>>>>>>> origin/new-develop
 }
 .footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(2) {
   -webkit-transform: translateY(-12px);
   transform: translateY(-12px);
 }
 .footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-icons svg:nth-child(3) {
+<<<<<<< HEAD
   -webkit-transform: translate(8px, -8px) rotate(5deg);
   transform: translate(8px, -8px) rotate(5deg);
 }
@@ -152,12 +218,52 @@ footer {
   vertical-align: top;
   display: inline-block;
   width: 39%;
+=======
+  -webkit-transform: translate(8px,-8px) rotate(5deg);
+  transform: translate(8px,-8px) rotate(5deg);
+}
+.footer_top .watch-share-explore-item-link:hover .watch-share-explore-item-heading {
+  color:#fd4f57;
+}
+.footer_top .watch-share-explore-item-icons svg {
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+  width:100px;
+}
+.footer_top .watch-share-explore-item-heading {
+  text-rendering: optimizeLegibility;
+  margin:0 0 13px;
+  font-size: 32px;
+  line-height: 1.25em;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  font-family: "Avenir LT Std 35 Light";
+  font-weight: 300 !important;
+  color:#000;
+}
+.footer_top .watch-share-explore-item-text {
+  font-family: "Avenir LT Std 35 Light";
+  font-size:21px;
+  line-height:1.3;
+  margin-right:0;
+}
+#banner-footer1 {
+  float:none;
+}
+#footer-iloveps {
+  vertical-align: top;
+  display:inline-block;
+  width:39%;
+>>>>>>> origin/new-develop
 }
 #footer-icon-iloveps {
   display: inline-block;
   width: 388px;
   height: 60px;
   text-indent: -9999px;
+<<<<<<< HEAD
   background-image: url("https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/footer-iloveps-icon.svg");
   background-repeat: no-repeat;
   background-size: contain;
@@ -194,17 +300,49 @@ footer {
   padding-top: 40px;
   width: 100%;
   min-height: 391px;
+=======
+  background-image: url('https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/footer-iloveps-icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer-section {
+  padding:20px 0;
+}
+.footer-section.footer-info {
+  padding-top:35px;
+  display:inline-block;
+}
+.social-item svg {
+  width:56px;
+  height:56px;
+}
+.social-item a {
+  margin-right:0;
+}
+.social-item {
+  margin-left: 17px;
+}
+#footer-bottom {
+  background:#1a1a1a;
+  padding-top:40px;
+  width:100%;
+>>>>>>> origin/new-develop
 }
 #footer-bottom .container {
   @extend .container;
   @extend .row;
   display: block;
+<<<<<<< HEAD
   margin: 0 auto;
+=======
+  margin:0 auto;
+>>>>>>> origin/new-develop
   padding-right: 16px;
 }
 #footer-bottom #banner-footer1,
 #footer-bottom #banner-footer2,
 #footer-bottom #banner-footer3 {
+<<<<<<< HEAD
   width: 100%;
   display: inline-block;
   vertical-align: top;
@@ -216,6 +354,18 @@ footer {
 }
 #footer-bottom #banner-footer1 p {
   color: #979494;
+=======
+  width:100%;
+  display:inline-block;
+  vertical-align: top;
+  padding:0;
+}
+#footer-bottom #banner-footer4, #footer-bottom #banner-footer5 {
+  display:none;
+}
+#footer-bottom #banner-footer1 p {
+  color:#979494;
+>>>>>>> origin/new-develop
   margin: 0;
   font-size: 1.5rem;
   line-height: 1.25em;
@@ -227,17 +377,27 @@ footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+<<<<<<< HEAD
   width: 520px;
   display: inline-block;
   vertical-align: top;
   margin-top: 16px;
   float: right;
   margin-right: 20px;
+=======
+  width:520px;
+  display:inline-block;
+  vertical-align: top;
+  margin-top:16px;
+  float:right;
+  margin-right:20px;
+>>>>>>> origin/new-develop
 }
 #footer-email,
 #footer-tel,
 #footer-powered-by {
   font-size: 1.25rem !important;
+<<<<<<< HEAD
   color: #fdcf41 !important;
 }
 #footer-powered-by {
@@ -277,12 +437,45 @@ footer {
 .cms-content ul li {
   list-style-type: none;
   display: inline-block;
+=======
+  color: #FDCF41 !important;
+}
+#footer-powered-by {
+  color: #FD4F57 !important;
+  display:block;
+  width:100%;
+}
+.watch-share-explore-item-link {
+  transition:all 0.25s ease-in-out !important;
+}
+.footer-nav-item-link {
+  font-family: 'Avenir LT Std 95 Black';
+  list-style-type: none !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color:#fff;
+  margin:0 10.1px;
+}
+.footer-nav-item-link:last-child {
+  margin-right:0;
+}
+.footer-nav-item-link:hover {
+  color:#fd4f57 !important;
+}
+.cms-content ul {
+  width:100%;
+}
+.cms-content ul li {
+  list-style-type: none;
+  display:inline-block;
+>>>>>>> origin/new-develop
   vertical-align: top;
 }
 .footer-contact-list.cms-content li:last-child {
   margin-right: 0;
 }
 .footer-info-details {
+<<<<<<< HEAD
   margin: 1px 0 0 15px;
   font-size: 12px;
   line-height: 1.35em;
@@ -326,6 +519,38 @@ footer {
     top: 0;
     left: 0;
   }
+=======
+  margin: 1px 0 0 10.5px;
+  font-size: 12px;
+  line-height: 1.35em;
+  color:#fff;
+  display:inline-block;
+  vertical-align: middle;
+  font-family: "Avenir LT Std 35 Light";
+}
+.footer-info-details a {
+  color:#fff;
+  font-size:14px;
+}
+#footer-mission-text {
+  margin: 0;
+  font-size: 23px;
+  line-height: 31px;
+  color:#979494;
+  display:inline-block;
+  vertical-align: top;
+  width:50%;
+  font-family: "Avenir LT Std 35 Light";
+}
+.cms-content ul.social {
+  display:inline-block;
+}
+.footer-social {
+  display:inline-block;
+  text-align: right;
+  width:49%;
+  margin-top:8px;
+>>>>>>> origin/new-develop
 }
 .footer-info-logo {
   display: inline-block;
@@ -333,6 +558,7 @@ footer {
   width: 130px;
   height: 30px;
   text-indent: -9999px;
+<<<<<<< HEAD
   background-image: url("https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/logo-nelovesps.svg");
   background-repeat: no-repeat;
   margin-right: 0;
@@ -341,10 +567,21 @@ footer {
   padding: 0;
   margin: 0;
   margin-left: 0 !important;
+=======
+  background-image: url('https://tstdrv2158095.app.netsuite.com/c.TSTDRV2158095/site/img/logo-nelovesps.svg');
+  background-repeat: no-repeat;
+  margin-right:0;
+}
+.footer-contact-list {
+  padding:0;
+  margin:0;
+  margin-left:0 !important;
+>>>>>>> origin/new-develop
   text-align: right;
   font-family: "Avenir LT Std 35 Light";
 }
 .footer-contact-item {
+<<<<<<< HEAD
   margin-left: 5px;
 }
 
@@ -393,21 +630,62 @@ a.footer-contact-item-link.bergman {
   }
   .footer-nav-item {
     list-style-type: none;
+=======
+  margin-left:5px;
+}
+a.footer-contact-item-link {
+  color:#fdcf41 !important;
+  margin-left:6px;
+  margin-right:0px;
+  font-size:20px;
+} 
+.footer-section.footer-contact{
+  display:inline-block;
+  float:right;
+  padding-bottom:0;
+  padding-top:37px;
+}
+a.footer-contact-item-link.bergman {
+  display:block;
+  width:100%;
+  float:right;
+  font-family: "Avenir LT Std 35 Light";
+}
+@media screen and (min-width: 768px) {
+  .footer-nav-list {
+      display: inline-block;
+      text-align: right;
+      margin-right:0;
+      padding-right:0;
+  }
+  .footer-nav-item {
+      list-style-type: none;
+>>>>>>> origin/new-develop
   }
 }
 @media screen and (min-width: 880px) {
   a.footer-contact-item-link.bergman {
+<<<<<<< HEAD
     text-align: right;
     width: 100%;
     margin-top: -21px;
     padding-bottom: 20px;
     color: #fd4f57 !important;
     font-size: 20px;
+=======
+      text-align: right;
+      width: 100%;
+      margin-top: -21px;
+      padding-bottom: 20px;
+      color:#fd4f57!important;
+      font-size:20px;
+>>>>>>> origin/new-develop
   }
 }
 
 @media screen and (min-width: 1100px) {
   .footer-nav-list {
+<<<<<<< HEAD
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
@@ -434,6 +712,34 @@ a.footer-contact-item-link.bergman {
   }
 }
 @media screen and (max-width: 1100px) {
+=======
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+  }
+}
+
+@media screen and (min-width: 401px){
+  .watch-share-explore-item-heading {
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:1220px) {
+  #footer-bottom .container {
+    margin-left:0 !important;
+    margin-right:0 !important;
+    padding:0 30px;
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .footer-section.footer-contact {
+    margin-bottom:16px;
+  }
+}
+@media screen and (max-width:1100px) {
+>>>>>>> origin/new-develop
   #footer-iloveps,
   .footer-nav-list,
   .footer-nav,
@@ -441,6 +747,7 @@ a.footer-contact-item-link.bergman {
   .footer-social,
   .footer-section.footer-info,
   .footer-section.footer-contact,
+<<<<<<< HEAD
   .footer-contact-list {
     display: block;
     width: 100%;
@@ -465,11 +772,37 @@ a.footer-contact-item-link.bergman {
   }
   .cms-content ul {
     margin-left: 0;
+=======
+  .footer-contact-list  {
+      display:block;
+      width:100%;
+      text-align: center;
+      padding:0;
+      margin:0;
+  }
+  .footer-section.footer-contact {
+    margin-bottom:16px;
+  }
+  .footer-info-details {
+      text-align: left;
+  }
+  .footer-contact-list {
+      padding-bottom:0px;
+      margin-top:10px;
+  }
+  .footer-section.footer-info {
+      position:absolute;
+      bottom:20px;
+  }
+  .cms-content ul {
+      margin-left:0;
+>>>>>>> origin/new-develop
   }
   .footer-nav-list,
   #footer-mission-text,
   .cms-content ul.social,
   #footer-iloveps {
+<<<<<<< HEAD
     padding: 20px 0;
   }
   .cms-content ul.social li:first-child {
@@ -496,17 +829,49 @@ a.footer-contact-item-link.bergman {
   }
   .footer-bottom {
     padding-bottom: 40px;
+=======
+      padding:20px 0;
+  }
+  .cms-content ul.social li:first-child {
+      margin-left:0;
+  }
+  .cms-content ul.social {
+      padding:24px 0;
+  }
+  #footer-mission-text {
+      width:100%;
+      max-width:600px;
+      text-align:left;
+      margin:0 auto;
+  }
+  a.footer-contact-item-link {
+      margin-top:8px;
+  }
+  a.footer-contact-item-link.bergman {
+      padding-bottom:90px;
+      text-align: center;
+  }
+  #footer-icon-iloveps {
+      margin-right:0;
+>>>>>>> origin/new-develop
   }
 }
 @media screen and (max-width: 991px) {
   a.footer-contact-item-link.bergman {
+<<<<<<< HEAD
     width: 100%;
     color: #fd4f57 !important;
     font-size: 20px;
+=======
+      width: 100%;
+      color: #FD4F57 !important;
+      font-size: 20px;
+>>>>>>> origin/new-develop
   }
 }
 @media screen and (max-width: 880px) {
   #footer-mission-text {
+<<<<<<< HEAD
     text-align: center;
   }
 }
@@ -532,3 +897,34 @@ a.footer-contact-item-link.bergman {
 footer {
   overflow: hidden;
 }
+=======
+      text-align:center;
+  }
+}
+
+@media screen and (max-width:767px){
+  #footer-mission-text {
+    font-size:20px;
+  }
+}
+@media screen and (max-width:674px){
+  a.footer-contact-item-link.bergman {
+    padding-bottom:130px;
+  }
+  .footer-info-details {
+    text-align:center;
+    margin-top:10px;
+  }
+}
+@media screen and (max-width:543px){
+  a.footer-contact-item-link.bergman {
+    padding-bottom:150px;
+  }
+}
+
+@media screen and (max-width:450px){
+  #footer-icon-iloveps {
+    width:100%;
+  }
+}
+>>>>>>> origin/new-develop

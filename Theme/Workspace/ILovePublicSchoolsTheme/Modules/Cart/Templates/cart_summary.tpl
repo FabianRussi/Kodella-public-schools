@@ -18,15 +18,19 @@
 							{{translate 'Subtotal <span class="cart-summary-item-quantity-subtotal">$(0) items</span>' itemCount}}
 						{{/if}}
 				</p>
+<<<<<<< HEAD
 				<a id="btn-proceed-checkout" class="cart-summary-button-proceed-checkout {{#if showProceedButton}} cart-summary-button-proceed-checkout-sb {{/if}}" href="#" data-touchpoint="checkout" data-hashtag="#">
 					{{translate 'Checkout'}}
 				</a>
+=======
+>>>>>>> origin/new-develop
 				{{#if showEstimate}}
 					<div class="cart-summary-subtotal-legend">
 						{{translate 'Subtotal does not include shipping or tax'}}
 					</div>
 				{{/if}}
 			</div>
+<<<<<<< HEAD
 	<!--
 	{{#if showActions}}
 		<div class="cart-summary-button-container">
@@ -47,6 +51,9 @@
 		</div>
 	{{/if}}
 	-->
+=======
+
+>>>>>>> origin/new-develop
 			<div data-view="CartPromocodeListView"></div>
 
 			{{#if showDiscountTotal}}
@@ -216,6 +223,13 @@
 
 	{{#if showActions}}
 		<div class="cart-summary-button-container">
+<<<<<<< HEAD
+=======
+			<a id="btn-proceed-checkout" class="cart-summary-button-proceed-checkout {{#if showProceedButton}} cart-summary-button-proceed-checkout-sb {{/if}}" href="#" data-touchpoint="checkout" data-hashtag="#">
+				{{translate 'Proceed to Checkout'}}
+			</a>
+
+>>>>>>> origin/new-develop
 			{{#if showPaypalButton}}
 				<div class="cart-summary-btn-paypal-express">
 					<a href="#" data-touchpoint="checkout" data-hashtag="#" data-parameters="paypalexpress=T">

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .login-register {
 	width: 1200px !important;
     margin: 0 auto;
@@ -18,6 +19,8 @@
     font-weight: 300!important;
 }
 
+=======
+>>>>>>> origin/new-develop
 .login-register-header{
 	@extend .row;
 	margin-bottom: $sc-margin-lv4;
@@ -51,6 +54,7 @@
 .login-register-wrapper-login,
 .login-register-wrapper-register{
 	@extend .box-column;
+<<<<<<< HEAD
 	background:none;
     width: 354px;
     padding: 0;
@@ -145,3 +149,8 @@
 		width:90%;
 	}
 }
+=======
+}
+
+
+>>>>>>> origin/new-develop

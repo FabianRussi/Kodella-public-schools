@@ -1,13 +1,20 @@
 <div class="home">
+<<<<<<< HEAD
     <!--<div data-cms-area="home_cms_area_1" data-cms-area-filters="path"></div>-->
 
     <!--<div class="home-banner-top">
+=======
+	<!--<div data-cms-area="home_cms_area_1" data-cms-area-filters="path"></div>-->
+
+	<!--<div class="home-banner-top">
+>>>>>>> origin/new-develop
 		<p class="home-banner-top-message">
 			{{translate 'Use promo code <strong>SCADEMO</strong> for <strong>30%</strong> off your purchase'}}
 		</p>
 	</div>
 	-->
 
+<<<<<<< HEAD
     <!--<div data-cms-area="home_cms_area_2" data-cms-area-filters="path"></div>-->
 
     <div class="home-slider-container">
@@ -20,6 +27,20 @@
                             <img src="{{ this }}" alt="" />
                         </div>
                         <!--
+=======
+	<!--<div data-cms-area="home_cms_area_2" data-cms-area-filters="path"></div>-->
+
+	<div class="home-slider-container">
+		<div class="home-image-slider">
+			<ul data-slider class="home-image-slider-list">
+				{{#each carouselImages}}
+					<li>
+						<div class="home-slide-main-container">
+							<div class="home-slide-image-container">
+								<img src="{{ this }}" alt="" />
+							</div>
+							<!--
+>>>>>>> origin/new-develop
 							<div class="home-slide-caption">
 								<h2 class="home-slide-caption-title">SAMPLE HEADLINE</h2>
 								<p>Example descriptive text displayed on multiple lines.</p>
@@ -28,10 +49,17 @@
 								</div>
 							</div>
 							-->
+<<<<<<< HEAD
                     </div>
                 </li>
                 {{else}}
                 <!--
+=======
+						</div>
+					</li>
+				{{else}}
+				<!--
+>>>>>>> origin/new-develop
 				<li>
 					<div class="home-slide-main-container">
 						<div class="home-slide-image-container">
@@ -78,6 +106,7 @@
 					</div>
 				</li>
 				-->
+<<<<<<< HEAD
                 {{/each}}
             </ul>
         </div>
@@ -93,6 +122,23 @@
     </div>
     <!--<div data-cms-area="home_cms_area_3" data-cms-area-filters="path"></div>-->
     <!--
+=======
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+	<div class="container merch-zone">
+		<div class="row">
+			<div class="col-xs-12">
+			<h1 class="merch-zone-title">
+				New Year - New Gear
+			</h1>
+			</div>
+		</div>
+	</div>
+	<!--<div data-cms-area="home_cms_area_3" data-cms-area-filters="path"></div>-->
+	<!--
+>>>>>>> origin/new-develop
 	<div class="home-banner-main">
 	{{#each bottomBannerImages}}
     	<div class="home-banner-main-cell-nth{{@index}}">
@@ -123,11 +169,19 @@
     {{/each}}
 	</div>
 	-->
+<<<<<<< HEAD
     <div data-cms-area="home_cms_area_33" data-cms-area-filters="path"></div>
 
     <div class="home-merchandizing-zone">
         <div data-id="your-merchandising-zone" data-type="merchandising-zone"></div>
     </div>
+=======
+	<div data-cms-area="home_cms_area_4" data-cms-area-filters="path"></div>
+
+	<div class="home-merchandizing-zone">
+		<div data-id="your-merchandising-zone" data-type="merchandising-zone"></div>
+	</div>
+>>>>>>> origin/new-develop
 </div>
 
 {{!----
@@ -138,4 +192,8 @@ Use the following context variables when customizing this template:
 	carouselImages (Array)
 	bottomBannerImages (Array)
 
+<<<<<<< HEAD
 ----}}
+=======
+----}}
+>>>>>>> origin/new-develop

@@ -1,20 +1,28 @@
 .cart-detailed{
 	@extend .cart;
+<<<<<<< HEAD
 	width:1180px;
 	margin-top:50px;
 	padding:0;
+=======
+>>>>>>> origin/new-develop
 
 	.transaction-line-views-selected-option-color-label-text,
 	.transaction-line-views-tax-label,
 	.cart-item-summary-item-list-actionable-amount-label,
 	.cart-item-summary-item-list-actionable-label-qty{
 		color: $sc-color-copy-dark;
+<<<<<<< HEAD
 		font-weight: 100;
+=======
+		font-weight: 600;
+>>>>>>> origin/new-develop
 	}
 
 	.transaction-line-views-selected-option {
 		.transaction-line-views-selected-option-label{
 			color: $sc-color-copy-dark;
+<<<<<<< HEAD
 			font-weight: 100;
 		}
 	}
@@ -23,18 +31,26 @@
 		display:block;
 		padding:25px;
 	}
+=======
+			font-weight: 600;
+		}
+	}
+>>>>>>> origin/new-develop
 }
 
 
 
 .cart-detailed-title{
 	@extend .cart-title;
+<<<<<<< HEAD
     font-family: 'Avenir LT Std'!important;
 	font-weight: 300!important;
 	border-bottom:none !important;
 	font-size:30px;
 	text-rendering: optimizeLegibility;
 	margin-bottom:12px !important;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-detailed-title-details-count{
@@ -54,13 +70,19 @@
 
 .cart-detailed-body{
 	@extend .cart-body;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-detailed-left{
 	@extend .cart-left;
+<<<<<<< HEAD
 	width:100%;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-detailed-empty{
@@ -68,6 +90,7 @@
 }
 
 
+<<<<<<< HEAD
 .cart-detailed-body .cart-header {
 	padding: 10px 0;
     border-top: 1px solid;
@@ -95,6 +118,9 @@
     font-family: "Avenir LT Std 35 Light" !important;
     font-weight: 300 !important;
 }
+=======
+
+>>>>>>> origin/new-develop
 
 
 .cart-detailed-savedforlater {
@@ -139,6 +165,7 @@
 }
 
 
+<<<<<<< HEAD
 .cart-buttons-container {
 	float:left;
 	margin-bottom:20px;
@@ -176,6 +203,11 @@
     display: inline-block;
     position: relative;
 }
+=======
+
+
+
+>>>>>>> origin/new-develop
 
 
 .cart-detailed-body-empty-info{
@@ -218,6 +250,7 @@
 	@extend .col-lg-9;
 }
 
+<<<<<<< HEAD
 
 @media only screen and (max-width:660px) {
 	#cart-top,
@@ -238,3 +271,5 @@
 		width:100%;
 	}
 }
+=======
+>>>>>>> origin/new-develop

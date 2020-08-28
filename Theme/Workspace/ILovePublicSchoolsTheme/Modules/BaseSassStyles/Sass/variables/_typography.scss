@@ -29,6 +29,12 @@ $sc-font-size-xl: 1.2rem;
 $sc-font-size-xxl: 1.47rem;
 $sc-font-size-xxxl: 1.73rem;
 
+<<<<<<< HEAD
+=======
+// Font family
+$sc-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+>>>>>>> origin/new-develop
 // Font weight
 $sc-font-weight-light: 300;
 $sc-font-weight-normal: 400;
@@ -42,7 +48,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 95 Black"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Black.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Black.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -50,7 +61,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 45 Book"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Book.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Book.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -58,7 +74,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 85 Heavy"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Heavy.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Heavy.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -66,7 +87,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 35 Light"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Light.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Light.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -74,7 +100,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 65 Medium"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Medium.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Medium.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -82,7 +113,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 55 Roman"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Roman.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Roman.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -90,7 +126,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 95 Black Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-BlackOblique.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-BlackOblique.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -98,7 +139,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 45 Book Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-BookOblique.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-BookOblique.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -106,7 +152,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 85 Heavy Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-HeavyOblique.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-HeavyOblique.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -114,7 +165,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 35 Light Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-LightOblique.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-LightOblique.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -122,7 +178,12 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 65 Medium Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-MediumOblique.woff") format("woff");
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-MediumOblique.woff")
+      format("woff");
+>>>>>>> origin/new-develop
 }
 
 @font-face {
@@ -130,8 +191,14 @@ $sc-navigation-icon-size: 25px;
   font-style: normal;
   font-weight: normal;
   src: local("Avenir LT Std 55 Oblique"),
+<<<<<<< HEAD
     url("http://nelovesps.kodel.la/site/Kodella-Public-Schools/Fonts/AvenirLTStd-Oblique.woff") format("woff");
 }
 
 // Font family
 $sc-font-family: "Avenir LT Std";
+=======
+    url("http://sca-demo.store/public-schools/Fonts/AvenirLTStd-Oblique.woff")
+      format("woff");
+}
+>>>>>>> origin/new-develop

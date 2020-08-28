@@ -15,7 +15,10 @@
 		}
 	}
 	.cart-item-summary-item-list-actionable-input-qty {
+<<<<<<< HEAD
 		float:right;
+=======
+>>>>>>> origin/new-develop
 	@extend .sc-value;
 
 	@media (min-width: $screen-md-min) {
@@ -48,11 +51,15 @@
 
 .cart-item-summary-quantity-add {
 	@extend .quantity-input-button-add;
+<<<<<<< HEAD
 	display:none;
+=======
+>>>>>>> origin/new-develop
 }
 
 .cart-item-summary-quantity-remove {
 	@extend .quantity-input-button-remove;
+<<<<<<< HEAD
 	display:none;
 }
 
@@ -64,6 +71,12 @@
 	 border: 1px solid #666;
 	 height: 22px;
 	 width:50px;
+=======
+}
+
+.cart-item-summary-quantity-value {
+ 	@extend .quantity-input;
+>>>>>>> origin/new-develop
 }
 
 .cart-item-summary-promocodes .cart-promocode-list-item-container{

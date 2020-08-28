@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .product-line-sku-container {
 	margin-bottom: $sc-margin-lv1;
 	margin-bottom:8px;
@@ -14,4 +15,15 @@
     font-family: "Avenir LT Std 35 Light" !important;
 	font-weight: 600 !important;
 	color:#666;
+=======
+.product-line-sku-container {
+	margin-bottom: $sc-margin-lv1;
+	margin-bottom:8px;
+}
+.product-line-sku-value {
+	@extend .sc-sku-value;
+}
+.product-line-sku-label {
+	@extend .sc-sku-label;
+>>>>>>> origin/new-develop
 }

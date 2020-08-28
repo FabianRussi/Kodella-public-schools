@@ -2,6 +2,7 @@
 	margin-top: $sc-margin-lv4;
 	display: table;
 	width: auto;
+<<<<<<< HEAD
 	float:right;
 
 	a {
@@ -39,6 +40,16 @@
 		background: rgb(255, 0, 18);
 		border:none;
 	}
+=======
+
+	a {
+		display: table-cell;
+		height: $sc-target-size;
+		vertical-align: middle;
+		padding-right: $sc-margin-lv4;
+	}
+
+>>>>>>> origin/new-develop
 	@media (max-width: $screen-md-max) {
 		margin-top: 0;
 	}
