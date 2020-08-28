@@ -1,8 +1,5 @@
 <li  class="merchandising-zone-cell-template">
-<<<<<<< HEAD
 <script>console.log(8059)</script>
-=======
->>>>>>> origin/new-develop
     <div data-type="backbone.collection.view.cell"></div>
 </li>
 

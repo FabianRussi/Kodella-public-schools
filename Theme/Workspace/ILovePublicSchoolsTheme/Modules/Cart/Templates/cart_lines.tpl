@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 {{log this}}
-=======
->>>>>>> origin/new-develop
 <div id="{{lineId}}" data-item-id="{{itemId}}" data-type="order-item" class="{{#if showGeneralClass}} {{generalClass}} {{/if}} cart-lines-row">
 	<div class="cart-lines-table-first">
 		<div class="cart-lines-thumbnail">
@@ -24,7 +21,6 @@
 				<span class="cart-lines-name-viewonly">{{item._name}}</span>
 		{{/if}}
 		</div>
-<<<<<<< HEAD
 		<!--
 		<div class="cart-lines-price">
 			<div data-view="Item.Price"></div>
@@ -55,34 +51,6 @@
 
 		{{#if showAlert}}
 			<div class="cart-lidesnes-alert-placeholder" data-type="alert-placeholder"></div>
-=======
-		<div class="cart-lines-price">
-			<div data-view="Item.Price"></div>
-		</div>
-		<div data-view="Item.Sku"></div>
-		<div data-view="Item.Tax.Info"></div>
-
-		<div class="cart-lines-options">
-			<div data-view="Item.SelectedOptions"></div>
-		</div>
-		{{#if showSummaryView}}
-			<div class="cart-lines-summary" data-view="Item.Summary.View"></div>
-		{{/if}}
-
-		<div data-view="StockDescription"></div>
-
-        <div class="cart-lines-item-actions-desktop" data-view="Item.Actions.View"></div>
-	</div>
-	<div class="cart-lines-table-last">
-		<div class="cart-lines-item-actions-mobile" data-view="Item.Actions.View"></div>
-
-        <div class="cart-lines-shipping-method" data-view="CartLines.PickupInStore"></div>
-
-		<div class="cart-lines-stock" data-view="Product.Stock.Info"></div>
-
-		{{#if showAlert}}
-			<div class="cart-lines-alert-placeholder" data-type="alert-placeholder"></div>
->>>>>>> origin/new-develop
 		{{/if}}
 
 		{{#if showCustomAlert}}
@@ -90,11 +58,8 @@
 				{{item._cartCustomAlert}}
 			</div>
 		{{/if}}
-<<<<<<< HEAD
 		<div class="cart-lines-item-actions-mobile" data-view="Item.Actions.View"></div>
 		<div class="cart-lines-item-actions-desktop" data-view="Item.Actions.View"></div>
-=======
->>>>>>> origin/new-develop
 	</div>
 </div>
 

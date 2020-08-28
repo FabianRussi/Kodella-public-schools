@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/new-develop
 <div class="product-details-image-gallery">
 	{{#if showImages}}
 		{{#if showImageSlider}}

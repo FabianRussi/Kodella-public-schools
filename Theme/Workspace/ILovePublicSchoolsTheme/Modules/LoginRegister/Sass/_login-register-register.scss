@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #register-show-view {
 	text-align:center;
 }
@@ -12,8 +11,6 @@
     padding: 0 0 23px 0;
 }
 
-=======
->>>>>>> origin/new-develop
 .login-register-register-form-description{
 	margin-top: $sc-margin-lv4;
 	margin-bottom: $sc-margin-lv4;
@@ -21,15 +18,11 @@
 
 .login-register-register-form-controls-group{
 	margin-top: $sc-margin-lv4;
-<<<<<<< HEAD
 	margin-top:5px;
-=======
->>>>>>> origin/new-develop
 }
 
 
 
-<<<<<<< HEAD
 .login-register-register-form-required{
 	@extend .input-required;
 	color:#333;
@@ -38,19 +31,12 @@
     -webkit-text-decoration: underline dotted; 
 	text-decoration: underline dotted;
 	margin-left:1px;
-=======
-
-
-.login-register-register-form-required{
-	@extend .input-required;
->>>>>>> origin/new-develop
 }
 
 .login-register-register-form-input{
 	@extend .input-large;
 }
 
-<<<<<<< HEAD
 .login-register-register-form-submit,
 .login-register-login-submit {
 	@extend .button-large;
@@ -90,11 +76,6 @@
     background: linear-gradient(#444444, #444444);
     -pie-background: linear-gradient(#444444, #444444);
 	border: 1px #444444 solid;
-=======
-.login-register-register-form-submit{
-	@extend .button-large;
-	@extend .button-primary;
->>>>>>> origin/new-develop
 }
 
 .login-register-register-form-messages{

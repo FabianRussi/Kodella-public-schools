@@ -4,12 +4,6 @@
 			{{#if showLines}}
 			<h1 class="cart-detailed-title">
 				{{pageHeader}}
-<<<<<<< HEAD
-=======
-				<small class="cart-detailed-title-details-count">
-					{{productsAndItemsCount}}
-				</small>
->>>>>>> origin/new-develop
 			</h1>
 			{{else}}
 				<h2 class="cart-detailed-title">{{translate 'Your Shopping Cart is empty'}}</h2>
@@ -17,7 +11,6 @@
 		</header>
 	</div>
 
-<<<<<<< HEAD
 	<!--<div data-cms-area="cart_detailed_cms_area_1" data-cms-area-filters="path"></div>-->
 
 	<div class="cart-detailed-body">
@@ -56,11 +49,6 @@
 			<span class="item-price">Total</span>
 			<span class="item-quantity">Quantity</span>
 		</div>
-=======
-	<div data-cms-area="cart_detailed_cms_area_1" data-cms-area-filters="path"></div>
-
-	<div class="cart-detailed-body">
->>>>>>> origin/new-develop
 		<section class="{{#if showLines}}cart-detailed-left {{else}}cart-detailed-empty{{/if}}">
 			{{#unless showLines}}
 				<div data-view="Quick.Order.EmptyCart">
@@ -69,27 +57,17 @@
 					</p>
 				</div>
 			{{/unless}}
-<<<<<<< HEAD
 		
 			<!-- <div data-view="Quick.Order"></div> -->
 		
 			{{#if showLines}}
 		<!--
-=======
-
-			<div data-view="Quick.Order"></div>
-
-			{{#if showLines}}
->>>>>>> origin/new-develop
 			<div class="cart-detailed-proceed-to-checkout-container">
 				<a class="cart-detailed-proceed-to-checkout" data-action="sticky" href="#" data-touchpoint="checkout" data-hashtag="#">
 					{{translate 'Proceed to Checkout'}}
 				</a>
 			</div>
-<<<<<<< HEAD
 		-->
-=======
->>>>>>> origin/new-develop
 			<div data-confirm-message class="cart-detailed-confirm-message"></div>
 
 			<div class="cart-detailed-item-view-cell-actionable-table cart-detailed-table-row-with-border">
@@ -101,7 +79,6 @@
 			<div class="cart-detailed-item-free" data-view="Item.FreeGift"></div>
 			{{/if}}
 
-<<<<<<< HEAD
 			<!--<div data-cms-area="cart_detailed_cms_area_2" data-cms-area-filters="path"></div>-->
 		</section>
 				<div class="cart-summary-subtotal">
@@ -121,14 +98,6 @@
 		{{#if showLines}}
 		<section class="cart-detailed-right">
 			<!-- <div data-view="Cart.Summary"></div> -->
-=======
-			<div data-cms-area="cart_detailed_cms_area_2" data-cms-area-filters="path"></div>
-		</section>
-
-		{{#if showLines}}
-		<section class="cart-detailed-right">
-			<div data-view="Cart.Summary"></div>
->>>>>>> origin/new-develop
 		</section>
 		{{/if}}
 	</div>
@@ -144,11 +113,7 @@
 		{{/if}}
 	</div>
 
-<<<<<<< HEAD
 	<!--<div data-cms-area="cart_detailed_cms_area_3" data-cms-area-filters="path"></div>-->
-=======
-	<div data-cms-area="cart_detailed_cms_area_3" data-cms-area-filters="path"></div>
->>>>>>> origin/new-develop
 </div>
 
 

@@ -17,41 +17,30 @@
 }
 
 input[type="number"].quantity-input {
-<<<<<<< HEAD
  	width: 50px;
  	height: 22px;
-=======
- 	width: 62px;
- 	height: 40px;
->>>>>>> origin/new-develop
  	text-align: right;
  	padding: $sc-margin-lv2;
 	background-color: $sc-color-theme-background;
 	border: 0;
 	float: left;
 	margin-bottom: 0;
-<<<<<<< HEAD
 	background: linear-gradient(rgb(250, 250, 250), rgb(245, 245, 245));
     box-shadow: inset 0 7px 2px -8px rgba(0, 0, 0, 0.7), inset 0 -7px 3px -8px rgba(0, 0, 0, 0.7);
     border: 1px solid #666 !important;
 	text-align:center;
-=======
->>>>>>> origin/new-develop
 
 	@media (min-width: $screen-md-min) {
 		display: block;
 		background: white;
 		float: none;
 		border: 1px solid $sc-color-theme-border;
-<<<<<<< HEAD
 		background: linear-gradient(rgb(250, 250, 250), rgb(245, 245, 245));
 		box-shadow: inset 0 7px 2px -8px rgba(0, 0, 0, 0.7), inset 0 -7px 3px -8px rgba(0, 0, 0, 0.7);
 		border: 1px solid #666 !important;
 		height: 22px;
 		width: 50px;
 		text-align:center;
-=======
->>>>>>> origin/new-develop
 	}
 }
 

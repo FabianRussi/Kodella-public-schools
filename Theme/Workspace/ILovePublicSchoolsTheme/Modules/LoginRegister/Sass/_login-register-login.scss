@@ -20,20 +20,16 @@
 .login-register-login-submit {
 	@extend .button-large;
 	@extend .button-primary;
-<<<<<<< HEAD
 	padding:7px 12px;
 	font-family: 'Avenir LT Std'!important;
 	font-weight: 300!important;
 	margin:13px 0 0 150px !important;
-=======
->>>>>>> origin/new-develop
 }
 
 .login-register-login-forgot {
 
 	display:inline-block;
 	margin-top: $sc-margin-lv4;
-<<<<<<< HEAD
 	color: #666666 !important;
     padding: 16px 0 16px 136px;
 	text-decoration: underline !important;
@@ -41,12 +37,6 @@
 
 	@media (min-width: $screen-sm-min) {
 		margin-top: 0;
-=======
-
-	@media (min-width: $screen-sm-min) {
-		margin-top: 0;
-		margin-left: $sc-margin-lv2;
->>>>>>> origin/new-develop
 	}
 }
 
@@ -73,7 +63,6 @@
 }
 
 
-<<<<<<< HEAD
 input.login-register-login-form-input, 
 input.login-register-register-form-input, 
 input.login-register-register-form-input {
@@ -106,13 +95,3 @@ input.login-register-register-form-input {
 .login-register-register-form-label {
 	margin-top:0;
 }
-=======
-.login-register-login-form-controls {
-	@extend .login-register-register-form-controls !optional;
-}
-
-
-
-
-
->>>>>>> origin/new-develop

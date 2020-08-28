@@ -30,10 +30,6 @@ $sc-pusher-width-md: 472px;
     }
 
     height: 100%;
-<<<<<<< HEAD
-=======
-    position: fixed;
->>>>>>> origin/new-develop
     top: 0;
     z-index: 10000;
     padding-left: $sc-padding-lv4;
@@ -41,10 +37,7 @@ $sc-pusher-width-md: 472px;
     padding-bottom: $sc-padding-lv8;
 
     .sc-pusher-header {
-<<<<<<< HEAD
         display:none !important;
-=======
->>>>>>> origin/new-develop
         margin-left: -$sc-margin-lv4;
         margin-right: -$sc-margin-lv4;
         @media (min-width: $screen-sm-min) {
@@ -81,10 +74,7 @@ $sc-pusher-width-md: 472px;
     padding-left: $sc-padding-lv4;
 
     .sc-pusher-header {
-<<<<<<< HEAD
         display:none !important;
-=======
->>>>>>> origin/new-develop
         margin-left: -$sc-margin-lv4;
         @media (min-width: $screen-md-min) {
             display: none;
@@ -124,10 +114,7 @@ $sc-pusher-width-md: 472px;
 $sc-push-header-height: 69px;
 
 .sc-pusher-header {
-<<<<<<< HEAD
     display:none !important;
-=======
->>>>>>> origin/new-develop
     background: $sc-color-theme-background;
     border-bottom: 1px solid $sc-color-theme-border-light;;
     margin-bottom: $sc-margin-lv4;
